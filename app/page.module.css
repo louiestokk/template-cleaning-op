@@ -8,8 +8,23 @@
 .titeln{
     font-family: "Roboto", serif;
 }
-
-
+.lankar{
+    color: inherit;
+    font-weight: bold;
+}
+.tjansterRoot{
+    height: 490px;
+    width: 320px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ margin-right: 1em;
+ background: white;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
 
 @media (min-width: 600px) {
 .heroMain{
@@ -21,6 +36,15 @@
 .textform{
     max-width: 500px;
 }
+.hogerMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.svg{
+    display: none;
+}
 }
 
 
@@ -28,6 +52,7 @@
     .textform{
         max-width: 90%;
         text-align: center;
+        margin-left: 1rem;
     }
     .titeln{
         max-width: 90%;

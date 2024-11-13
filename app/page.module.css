@@ -20,17 +20,11 @@
 }
 .textform{
     max-width: 500px;
-  
 }
 }
 
 
 @media (max-width: 600px) {
-    .boxmox{
-        position: absolute;
-        top: 38%;
-        left:7%;
-    }
     .textform{
         max-width: 90%;
         text-align: center;
@@ -38,6 +32,15 @@
     .titeln{
         max-width: 90%;
         text-align: center;
+    }
+    .heroImg{
+        display: none;
+    }
+    .heroMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     }
     

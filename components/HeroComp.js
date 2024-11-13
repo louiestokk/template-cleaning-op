@@ -13,9 +13,9 @@ const HeroComp = () => {
     <h1 className={styles.titeln}>Vi tar hand om hemmet med RUT-avdrag! </h1>
     <p className={styles.textform}>Vi flyttar, städar och tömmer hushåll och dödsbon. Nyttja din rut när du använder våra tjänster!</p>
     </Box>
-               <img alt='flyttfirma och städfirma' src='/hero.jpg' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+               <img className={styles.heroImg} alt='flyttfirma och städfirma' src='/hero.jpg' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
     </Box>
-    <Box className={styles.boxmox}>
+    <Box>
         <FormComp data={varaTjanster} title={'Be om offert'}/>
       </Box>
     </div>

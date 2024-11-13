@@ -16,7 +16,7 @@ const HeroComp = () => {
                <img className={styles.heroImg} alt='flyttfirma och städfirma' src='/hero.jpg' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
     </Box>
     <Box>
-        <FormComp data={varaTjanster} title={'Be om offert'}/>
+        <FormComp data={varaTjanster} title={'Be om offert kostnadsfritt'}/>
       </Box>
     </div>
     </div>

@@ -40,22 +40,22 @@ export default AccordionComp
 const accordionArray = [
     {
       title:'Hur mycket kostar flyttstädning?',
-      text:'Dom flesta får slänga på en åvc utan kostnad om man har fria besök kvar i annat fall kostar det 453kr med moms. Företag får alltid betala för sina besök.'
+      text:'Kostnaden för flyttstädning varierar beroende på flera faktorer, som bostadens storlek, antal badrum, och städfirmans villkor. Vanligtvis kostar en flyttstädning mellan 25–30 kr per kvadratmeter efter RUT-avdraget, vilket innebär att en bostad på 125 kvadratmeter kan kosta runt 3 500 kr. Priset påverkas även av om städningen utförs på vardagar eller under helger, då kvälls- och helgstädning ofta har en prispåslag på 30–60 %.'
     },
     {
       title:'Vad kostar hemstäd i timman?',
-      text:'Du kommer in på en återvinningscentral genom att använda ditt körkort eller id kort. Många åvc är bemannad och har öppetider för alla att återvinna.'
+      text:'Kostnaden för hemstädning per timme varierar beroende på företag, frekvens och region i Sverige. Generellt ligger timpriser för hemstädning mellan 220 och 300 kronor efter RUT-avdrag.'
     },
     {
       title:'Får jag RUT-avdrag när jag flyttar?',
-      text:'Kostnaden får att få hjälp med att återvinna och forsla bort grovospor, möbler, wellpapp, kläder och andra prylar brukar vara mellan 450kr - 2800kr beroende på hur mycket det är och hur stora föremålen är.'
+      text:'Ja, du kan få RUT-avdrag för vissa kostnader när du flyttar. RUT-avdraget täcker arbetskostnader för flyttjänster, vilket inkluderar bland annat packning, lastning, uppackning och flyttstädning. Du kan dock inte få avdrag för kostnader relaterade till flyttbil, drivmedel, eller hyra av flyttkartonger. Avdraget gäller upp till 50 % av arbetskostnaden och maximalt 75 000 kronor per år för personer under 65 år, medan för äldre personer gäller ett tak på 50 000 kronor.'
     },
     {
       title:'Vad kostar det att tömma ett dödsbo?',
-      text:'Vanligtvis är det 3 gånger på ett år helt utan kostnad och därefter tillkommer en kostnad på 453kr inkl moms per besök.'
+      text:'Att tömma ett dödsbo kan variera i pris beroende på bostadens storlek, mängden föremål, och eventuella specialtjänster som ingår, som städning och värdering. Generellt ligger timpriserna mellan 1,100 och 1,300 kronor för två personer som sköter tömningen. En liten bostad, exempelvis en etta, kan kosta från cirka 2,600 kronor och uppåt för tömning, medan större bostäder blir dyrare beroende på arbetstid och åtkomstförhållanden.'
     },
     {
       title:'Vad kostar bortforsling av möbler?',
-      text:'recyclerapp.com/atervinningscentral'
+      text:'Priset för att få bortforsling av möbler varierar beroende på faktorer som plats, mängd möbler och huruvida möblerna kan återanvändas eller måste slängas som avfall. En vanlig metod för prissättning är att företag tar betalt per kubikmeter avfall, och detta kan kosta från cirka 500 till 1000 kronor per kubikmeter. För mindre bortforslingar med enstaka möbler finns ofta en minimikostnad runt 1500–2000 kronor. '
     }
   ]

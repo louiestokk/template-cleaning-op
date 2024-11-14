@@ -26,6 +26,11 @@
  text-align: center;
 }
 
+.footerCm{
+height: 100%;
+background: #32de84;
+}
+
 @media (min-width: 600px) {
 .heroMain{
     position: relative;

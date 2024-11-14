@@ -6,6 +6,9 @@ import HogerSection from "../components/HogerSection";
 import LeftSection from "../components/LeftSection";
 import TjansterCarousal from "../components/TjansterCarousal";
 import AccordionComp from "../components/AccordionComp";
+import DividerSection from "../components/DividerSection";
+import FooterComp from "../components/FooterComp";
+import Tesimonial from "../components/Tesimonial";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -21,10 +24,10 @@ export default function Home() {
     <div style={{height:'70px'}}></div>
     <LeftSection />
     <AccordionComp />
+    <DividerSection />
+    <Tesimonial />
       </main>
-      <footer className={styles.footer}>
-      
-      </footer>
+     <FooterComp />
     </div>
   );
 }

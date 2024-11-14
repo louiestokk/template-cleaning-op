@@ -4,7 +4,7 @@ import { Button,FormControlLabel,Checkbox,Grid2,Box,TextField } from '@mui/mater
 import styles from '../app/page.module.css'
 const FormComp = ({title,data}) => {
   return (
-    <div style={{width:'100%',marginRight:'1rem'}}>
+    <div style={{width:'100%',margin:'1rem 1rem'}}>
     <form style={{display:'flex',flexDirection:'column',background:'#F8F8F8',width:'360px',padding:'1rem'}}>
     <h2  className={styles.titeln}>{title}</h2>
         <Grid2 container>

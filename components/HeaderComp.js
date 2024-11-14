@@ -16,11 +16,31 @@ import MenuItem from '@mui/material/MenuItem';
 import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
 
 const sidor = [
-  {}
+  {
+    title:'Städning',
+    path:'#stadning'
+  },
+  {
+    title:'Flytt',
+    path:'#flytt'
+  },
+  {
+    title:'Bortforsling',
+    path:'#bortforsling'
+  },
+  {
+    title:'Dödsbon',
+    path:'#dodsbon'
+  },
+  {
+    title:'Kontorsstäd',
+    path:'#kontorsstad'
+  },
+  {
+    title:'Kontakt',
+    path:'#kontakt'
+  }
 ]
-const pages = ['Städning', 'Flytt', 'Bortforsling','Dödsbon','Kontorsstäd', 'Kontakt'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
 
 const HeaderComp = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -93,9 +113,11 @@ const HeaderComp = () => {
               onClose={handleCloseNavMenu}
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography style={{color:'black'}} sx={{ textAlign: 'center' }}>{page}</Typography>
+              {sidor.map((page,i) => (
+                <MenuItem key={i} onClick={handleCloseNavMenu}>
+                <a href={page.path} title={page.title} style={{textDecoration:'none',color:'inherit'}}>
+                <Typography style={{color:'black'}} sx={{ textAlign: 'center' }}>{page.title}</Typography>
+                </a>
                 </MenuItem>
               ))}
             </Menu>
@@ -120,14 +142,14 @@ const HeaderComp = () => {
             Tant Rut
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {sidor.map((page,i) => (
               <Button
               style={{color:'black'}}
-                key={page}
+                key={i}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <a href={page.path} title={page.title} style={{textDecoration:'none',color:'inherit'}}>   {page.title}</a>
               </Button>
             ))}
           </Box>

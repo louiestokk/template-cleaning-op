@@ -52,7 +52,7 @@ const DividerSection = () => {
     </Box>
     </Box>
     </div>
-    <div className={styles.heroMain} id='flytt'>
+    <div className={styles.heroMain} id='kontorsstad'>
      <Box>
      <Box>
                  <Box style={{height:'10px'}}></Box>

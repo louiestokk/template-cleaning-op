@@ -4,7 +4,7 @@ import { Box } from '@mui/material'
 import FormComp from './FormComp'
 const FooterComp = () => {
   return (
-    <footer style={{width:'100%'}}>
+    <footer style={{width:'100%'}} id='kontakt'>
          <div className={styles.heroMain} style={{background:'#32de84'}}>
          <Box>
                 <Box>

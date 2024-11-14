@@ -15,6 +15,9 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
 
+const sidor = [
+  {}
+]
 const pages = ['Städning', 'Flytt', 'Bortforsling','Dödsbon','Kontorsstäd', 'Kontakt'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

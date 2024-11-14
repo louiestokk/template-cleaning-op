@@ -3,7 +3,7 @@ import { Grid2,Box,Button} from '@mui/material'
 import styles from '../app/page.module.css'
 const TjansterCarousal = () => {
   return (
-    <div style={{background:'#32de84',height:'620px'}}>
+    <div style={{background:'#32de84',height:'620px',width:'100%'}}>
       <h2 style={{textAlign:'center',padding:'1.5rem'}} className={styles.titeln}>Våra tjänster</h2>
         <div style={{display:'flex',overflowX:'scroll',width:'90%',margin:'0 auto'}}>
             {services.map((el,i)=>(

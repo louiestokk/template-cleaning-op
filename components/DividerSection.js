@@ -5,7 +5,7 @@ import Divider from './Divider'
 import FormComp from './FormComp'
 const DividerSection = () => {
   return (
-    <div>
+    <div style={{width:'100%'}}>
         <div className={styles.heroMain} id='bortforsling'>
     <Box>
                 <img alt='bortforsling mäbler och grovsopor' src='https://img.freepik.com/free-vector/house-moving-illustration_52683-46999.jpg?t=st=1731541590~exp=1731545190~hmac=f9d10a18f180697916a4c01ca3c63347927ef099030bb449e4470419ebd3419c&w=1800' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
@@ -47,7 +47,7 @@ const DividerSection = () => {
                 <Box>
                 <Box style={{height:'10px'}}></Box>
                 <h4 className={styles.titeln}>Tant Rut Alltjänst</h4>
-    <h1 className={styles.titeln}>Vi tar hand om hemmet med RUT-avdrag! </h1>
+    <h1 className={styles.titeln}>Använd vårt formulär för att snabbt få en offert!</h1>
     <p className={styles.textform}>Vi flyttar, städar och tömmer hushåll och dödsbon. Nyttja din rut när du använder våra tjänster!</p>
     </Box>
     </Box>

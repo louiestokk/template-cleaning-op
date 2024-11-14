@@ -41,7 +41,7 @@ const HeaderComp = () => {
       setAnchorElUser(null);
     };
   return (
-    <div>
+    <div style={{width:'100%'}}>
     <AppBar position="static" style={{background:'#32de84',color:'black'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>

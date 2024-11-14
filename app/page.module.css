@@ -14,6 +14,12 @@
     color: inherit;
     font-weight: bold;
 }
+.lank{
+    text-decoration: none;
+color: inherit;
+margin-right: 1rem;
+font-size: 1.6rem;
+}
 .tjansterRoot{
     height: 490px;
     width: 320px;
@@ -74,6 +80,9 @@ background: #32de84;
         justify-content: center;
         align-items: center;
         padding: 1.5rem;
+    }
+    .social{
+        text-align: center;
     }
     }
     

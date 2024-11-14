@@ -4,7 +4,7 @@ import { Grid2,Button, Box } from '@mui/material'
 import styles from '../app/page.module.css'
 const HeroComp = () => {
   return (
-    <div style={{marginTop:'25px',width:'100%',marginLeft:'0.5rem'}}>
+    <div style={{marginTop:'25px',width:'100%'}}>
    <div className={styles.heroMain}>
     <Box>
                 <Box>

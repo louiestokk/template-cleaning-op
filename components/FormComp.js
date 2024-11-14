@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react'
 import { Button,FormControlLabel,Checkbox,Grid2,Box,TextField } from '@mui/material'
 import styles from '../app/page.module.css'
@@ -8,6 +9,22 @@ import {dispatchService,dispatchEmail,dispatchDescription} from '../redux/featur
 const FormComp = ({title,data}) => {
   const formData = useSelector((state)=> state.form)
   const dispatch = useDispatch()
+
+  const handleSendEmail = async() =>{
+    try {
+      const resp = await fetch('/api/emails',{
+        method:'POST',
+        body:JSON.stringify({
+          emailTo:formData?.email?.payload
+        })
+      })
+      if(resp.ok){
+        console.log('email skickad')
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   const handleServiceChange = (e,title) =>{
  dispatch(dispatchService(title))
@@ -21,9 +38,25 @@ const FormComp = ({title,data}) => {
     dispatch(dispatchDescription(e.target.value))
   }
 
-  const handleSubmit = (e) =>{
+  const handleSubmit = async(e) =>{
     e.preventDefault()
-    console.log(formData)
+handleSendEmail()
+    // try {
+    //   const resp = await fetch('/api/forfragan',{
+    //     method:'POST',
+    //     body:JSON.stringify({
+    //      service:formData?.service?.payload,
+    //      email:formData?.email?.payload,
+    //      description:formData?.description?.payload
+    //     })
+    //   })
+    //   if(resp.ok){
+    //     console.log('success')
+    //   }
+    // } catch (error) {
+    //   // show user response
+    //   console.log(error.message)
+    // } 
   }
 
   return (

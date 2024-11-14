@@ -16,7 +16,7 @@ const FormComp = ({title,data}) => {
             ))}
         </Grid2>
         <TextField variant='outlined' type='email' placeholder='Diin email' style={{background:'white'}}/>
-        <textarea rows={3} style={{border:'0.5px solid lightgray',borderRadius:'4px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
+        <textarea rows={3} style={{border:'0.5px solid lightgray',borderRadius:'4px',fontSize:'16px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
         <Button variant='contained' style={{background:'#32de84',color:'black',padding:'0.65rem'}}>Be om offert</Button>
     </form>
     </div>

@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React,{useState} from 'react'
 import { Button,FormControlLabel,Checkbox,Grid2,Box,TextField } from '@mui/material'
 import styles from '../app/page.module.css'
 import { useDispatch,useSelector } from 'react-redux'
@@ -9,17 +9,42 @@ import {dispatchService,dispatchEmail,dispatchDescription} from '../redux/featur
 const FormComp = ({title,data}) => {
   const formData = useSelector((state)=> state.form)
   const dispatch = useDispatch()
+  const [skickar, setSkickar] = useState(false)
+  const [recived, setRecived] = useState(false)
 
-  const handleSendEmail = async() =>{
+  const sendEmailToadmin = async() =>{
     try {
-      const resp = await fetch('/api/emails',{
+      const resp = await fetch('/api/emails/admin-confirmation',{
         method:'POST',
         body:JSON.stringify({
-          emailTo:formData?.email?.payload
+          lead:{
+            service:formData?.service?.payload,
+            email:formData?.email?.payload,
+            description:formData?.description?.payload
+          }
         })
       })
       if(resp.ok){
         console.log('email skickad')
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  const handleSendEmail = async() =>{
+    setSkickar(true)
+    try {
+      const resp = await fetch('/api/emails',{
+        method:'POST',
+        body:JSON.stringify({
+          emailTo:formData?.email?.payload,
+        })
+      })
+      if(resp.ok){
+        console.log('email skickad')
+        sendEmailToadmin()
+        setSkickar(false)
+        setRecived(true)
       }
     } catch (error) {
       console.log(error)
@@ -71,9 +96,9 @@ handleSendEmail()
                 </Grid2>
             ))}
         </Grid2>
-        <TextField onChange={handleEmailChange} variant='outlined' type='email' placeholder='Diin email' style={{background:'white'}}/>
+        <TextField onChange={handleEmailChange} variant='outlined' type='email' placeholder='Din email' style={{background:'white'}}/>
         <textarea onChange={handleDescriptionChange} rows={3} style={{border:'0.5px solid lightgray',borderRadius:'4px',fontSize:'16px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
-        <Button onClick={handleSubmit} type='submit' variant='contained' style={{background:'#32de84',color:'black',padding:'0.65rem'}}>Be om offert</Button>
+        <Button onClick={handleSubmit} type='submit' variant='contained' style={{background:'#32de84',color:'black',padding:'0.65rem'}}>{skickar?'skickar...':recived?'Tack för din förfrågan':'Be om offert'}</Button>
     </form>
     </div>
   )

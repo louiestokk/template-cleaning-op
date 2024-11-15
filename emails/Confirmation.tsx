@@ -34,7 +34,7 @@ import {
         </Section>
           <Heading style={heading}>Tack för din förfrågan.</Heading>
           <Text style={paragraph}>
-            Vi har fått din förfrågan och snart kommer du att få kontakt och en offert av oss. Besök vår hemsida och du vill ha mer information.
+            Vi har fått din förfrågan och snart kommer du att få kontakt och en offert av oss. Besök vår hemsida om du vill ha mer information.
           </Text>
           <Section style={buttonContainer}>
             <Button style={button} href="https://tantrut.netlify.app/">

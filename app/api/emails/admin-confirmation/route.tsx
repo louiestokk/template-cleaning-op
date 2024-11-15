@@ -1,17 +1,19 @@
-import { Resend } from "resend";
+import React from 'react';
+import {Resend} from 'resend'
 const resend = new Resend(process.env.RESEND_API_KEY);
-import Confirmation from '../../../emails/Confirmation'
-import React from "react";
-
 
 export async function POST(req: Request) {
     try {
-        const {emailTo,lead } = await req.json();
+        const {lead } = await req.json();
         const { data, error } = await resend.emails.send({
           from: 'Acme <onboarding@resend.dev>',
           to: ['grokthegoat@gmail.com'],
-          subject: 'Tack för din förfrågan',
-          react: <Confirmation/>
+          subject: 'Ett nytt lead!',
+          react: <div>
+            <h2>Tjänst: {lead.service}</h2>
+            <h4>Email: {lead.email}</h4>
+            <p>Beskriv: {lead.description}</p>
+          </div>
         });
     
         if (error) {

@@ -33,7 +33,7 @@ const FooterComp = () => {
     <p className={styles.textform}>Vi flyttar, städar och tömmer hushåll och dödsbon. Nyttja din rut när du använder våra tjänster!</p>
     <p style={{fontSize:'0.85rem'}} className={styles.textform}>Håkansgatan 3, 418 74 Göteborg</p>
     <p style={{fontSize:'0.85rem'}} className={styles.textform}>Bogesundsgatan 4, 523 48 Ulricehamn</p>
-    <p style={{fontSize:'0.85rem',color:'black'}} className={styles.textform}>ORGNR: 556469 5194</p>
+    <p style={{fontSize:'0.85rem',color:'black'}} className={styles.textform}>ORGNR 556469 5194</p>
                 </Box>
     </Box>
     </Box>

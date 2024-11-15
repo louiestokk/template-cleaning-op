@@ -10,7 +10,7 @@ const HogerSection = ({hogerTitle,hogerText,hogertop}) => {
                 <Box style={{height:'10px'}}></Box>
                 <h4 className={styles.titeln}>Om oss</h4>
     <h2 className={styles.titeln}>Vilka är vi på Tant Rut</h2>
-    <p className={styles.textform}>Tant Rut är ett företag som brinner för att underlätta vardagen för dig. Vi erbjuder pålitliga tjänster inom städning, flytt och hantering av dödsbon, alltid med omtanke och respekt för våra kunder och deras hem. Med RUT-avdraget kan du dra nytta av våra tjänster till ett förmånligt pris och låta oss ta hand om de praktiska detaljerna, så att du kan fokusera på det som är viktigast för dig.</p>
+    <p className={styles.textform}>Tant Rut är ett företag som brinner för att underlätta vardagen för dig. Vi erbjuder pålitliga tjänster inom <a className={styles.lankar} href='/stadfirma-goteborg' title='städfirma göteborg'>städning</a>, <a className={styles.lankar} href='/flyttfirma-goteborg' title='flyttfirma göteborg'>flytt</a> och hantering av <a className={styles.lankar} href='/stadfirma-goteborg' title='städfirma göteborg'>städning</a>, <a className={styles.lankar} href='/tomma-dodsbo-goteborg' title='tömma dödsbo göteborg'>dödsbon</a> , alltid med omtanke och respekt för våra kunder och deras hem. Med RUT-avdraget kan du dra nytta av våra tjänster till ett förmånligt pris och låta oss ta hand om de praktiska detaljerna, så att du kan fokusera på det som är viktigast för dig.</p>
     </Box>
       </Box>
       <Box>
@@ -22,3 +22,4 @@ const HogerSection = ({hogerTitle,hogerText,hogertop}) => {
 }
 
 export default HogerSection
+

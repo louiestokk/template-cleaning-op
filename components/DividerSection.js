@@ -3,7 +3,7 @@ import styles from '../app/page.module.css'
 import { Box } from '@mui/material'
 import Divider from './Divider'
 import FormComp from './FormComp'
-const DividerSection = () => {
+const DividerSection = ({title,secondTitle,service,text,imgUrl}) => {
   return (
     <div style={{width:'100%'}}>
         <div className={styles.heroMain} id='bortforsling'>
@@ -16,7 +16,7 @@ const DividerSection = () => {
                  <h4 className={styles.titeln}>Bortforsling</h4>
      <h2  className={styles.titeln}>Vi forslar bort möbler och grovsopor</h2>
      <p className={styles.textform}>
-     Vi erbjuder snabb och smidig bortforsling av möbler och grovsopor direkt från din bostad eller arbetsplats. Vårt erfarna team tar hand om allt från tunga möbler till skrymmande avfall och ser till att allt hanteras miljövänligt och enligt återvinningskrav. Vi sköter hela processen, så att du slipper tänka på transport och återvinning.
+     Vi erbjuder snabb och smidig <a className={styles.lankar} href='/bortforsling-mobler-goteborg' title='bortforsling möblerr göteborg'>bortforsling av möbler</a> och grovsopor direkt från din bostad eller arbetsplats. Vårt erfarna team tar hand om allt från tunga möbler till skrymmande avfall och ser till att allt hanteras miljövänligt och enligt återvinningskrav. Vi sköter hela processen, så att du slipper tänka på transport och återvinning.
      </p>
      </Box>
        </Box>
@@ -28,9 +28,9 @@ const DividerSection = () => {
      <Box>
                  <Box style={{height:'10px'}}></Box>
                  <h4 className={styles.titeln}>Dödsbon</h4>
-     <h2 className={styles.titeln}>Köper, tömmer och städar dödsbon</h2>
+     <h2 className={styles.titeln}>{title?title:'Köper, tömmer och städar dödsbon'}</h2>
      <p className={styles.textform}>
-     Vi erbjuder professionell hantering av dödsbon, inklusive tömning, städning och försäljning av föremål. Vi köper upp dödsbon och säljer vidare värdefulla objekt på ett effektivt sätt, samtidigt som vi ser till att tömma och städa bostaden. Vårt mål är att underlätta processen för anhöriga genom att ta hand om allt från värdering och bortforsling till slutstädning, med omtanke och respekt.
+     Vi erbjuder professionell hantering av dödsbon, inklusive tömning, städning och försäljning av föremål. Vi <a className={styles.lankar} href='/kopa-dodsbo-goteborg' title='köper dödsbo göteborg'>köper upp dödsbon</a> och säljer vidare värdefulla objekt på ett effektivt sätt, samtidigt som vi ser till att tömma och städa bostaden. Vårt mål är att underlätta processen för anhöriga genom att ta hand om allt från värdering och bortforsling till slutstädning, med omtanke och respekt.
      </p>
      </Box>
        </Box>
@@ -56,15 +56,15 @@ const DividerSection = () => {
      <Box>
      <Box>
                  <Box style={{height:'10px'}}></Box>
-                 <h4 className={styles.titeln}>Kontorsstäd</h4>
-     <h2 className={styles.titeln}> Skräddarsydd kontorsstädning!</h2>
+                 <h4 className={styles.titeln}>{service?service:'Kontorsstäd'}</h4>
+     <h2 className={styles.titeln}>{secondTitle?secondTitle:'Skräddarsydd kontorsstädning!'}</h2>
      <p className={styles.textform}>
-     Vi erbjuder skräddarsydd kontorsstädning som passar just dina behov. Vårt erfarna team ser till att ditt kontor hålls rent, fräscht och inbjudande. Vi tar hand om allt från daglig städning till mer omfattande rengöring, och ser till att alla ytor, inklusive toaletter och kök, hålls i toppskick. Med vår flexibla tjänst kan vi anpassa städningen efter ditt kontors schema för minimal störning och maximal effektivitet.
+     {text?text:<>Vi erbjuder skräddarsydd <a className={styles.lankar} href='/kontorsstad-goteborg' title='kontorsstädning'>kontorsstädning</a> som passar just dina behov. Vårt erfarna team ser till att ditt kontor hålls rent, fräscht och inbjudande. Vi tar hand om allt från daglig städning till mer omfattande rengöring, och ser till att alla ytor, inklusive toaletter och kök, hålls i toppskick. Med vår flexibla tjänst kan vi anpassa städningen efter ditt kontors schema för minimal störning och maximal effektivitet.</>}
      </p>
      </Box>
        </Box>
        <Box>
-                <img alt='kontorrsstäd' src='https://img.freepik.com/premium-vector/cleaning-staff-team-working-office_179970-1861.jpg?w=1800' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt={secondTitle?secondTitle:'kontorrsstäd'} src={imgUrl?imgUrl:'https://img.freepik.com/premium-vector/cleaning-staff-team-working-office_179970-1861.jpg?w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      </div>
     </div>

@@ -2,7 +2,8 @@ import React from 'react'
 import FormComp from './FormComp'
 import { Grid2,Button, Box } from '@mui/material'
 import styles from '../app/page.module.css'
-const HeroComp = () => {
+
+const HeroComp = ({title,text}) => {
   return (
     <div style={{marginTop:'25px',width:'100%'}}>
    <div className={styles.heroMain}>
@@ -10,8 +11,8 @@ const HeroComp = () => {
                 <Box>
                 <Box style={{height:'10px'}}></Box>
                 <h4 className={styles.titeln}>Tant Rut Alltjänst</h4>
-    <h1 className={styles.titeln}>Vi tar hand om hemmet med RUT-avdrag! </h1>
-    <p className={styles.textform}>Vi flyttar, städar och tömmer hushåll och dödsbon. Nyttja din rut när du använder våra tjänster!</p>
+    <h1 className={styles.titeln}>{title?title:'Vi tar hand om hemmet med RUT-avdrag!'}</h1>
+    <p className={styles.textform}>{text?text:'Vi flyttar, städar och tömmer hushåll och dödsbon. Nyttja din rut när du använder våra tjänster!'}</p>
     </Box>
                <img className={styles.heroImg} alt='flyttfirma och städfirma' src='/hero.jpg' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
     </Box>

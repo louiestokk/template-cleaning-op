@@ -87,4 +87,34 @@ const homeTestimonial = [
       service: "Städning",
       testimonial: "Tant Rut hjälpte mig att snabbt hitta en pålitlig städfirma för vår vårstädning. Kundservicen var smidig och jag fick snabbt svar. Rekommenderas starkt!"
     },
+    {
+      name: "Fredrik Olsson",
+      img:'https://randomuser.me/api/portraits/men/17.jpg',
+      service: "Flytthjälp",
+      testimonial: "Vi behövde hjälp med att flytta och Tant Rut gjorde ett fantastiskt jobb och hela flytten gick väldigt smdidigt. Väldigt nöjd med hur smidigt allt gick."
+    },
+    {
+      name: "Sara Andersson",
+      img:'https://randomuser.me/api/portraits/women/63.jpg',
+      service: "Bortforsling möbler",
+      testimonial: "Vi använde Tant Rut för att få hjälp med bortforsling av möbler och grovsopor, och det visade sig vara ett utmärkt val. Personalen var otroligt lyhörd och erbjöd personlig service. Tant Rut gjorde processen enkel och stressfri, vilket vi uppskattade mycket."
+    },
+    {
+      name: "Johan Karlsson",
+      img:'https://randomuser.me/api/portraits/men/57.jpg',
+      service: "Hemstäd",
+      testimonial: "Vi har använt Tant Rut för hemstäd i flera månader nu och vi är jätte nöjda. Rekommenderar starkt!"
+    },
+    {
+      name: "Eva Nilsson",
+      img:'https://randomuser.me/api/portraits/women/53.jpg',
+      service: "Värdera dödsbo",
+      testimonial: "Vi fick hjälp med helhetslösning för vårt dödsbo. Tant Rut gjorde hela processeen enkel för oss och med respekt. Vi kommer använda Tant Rut igen!"
+    },
+    {
+      name: "Lars Eriksson",
+      img:'https://randomuser.me/api/portraits/men/21.jpg',
+      service: "Flytt till boende",
+      testimonial: "Tack vare Tant Rut kunde vi snabbt och enkelt hjälpa min bror att flytta till ett boende. Tant Rut gjorde det enkelt att jämföra alternativ och hitta det som passade oss bäst."
+    },
   ];

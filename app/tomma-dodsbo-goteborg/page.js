@@ -17,7 +17,7 @@ import { sidorsalja } from '../../content/sidorna'
 export const metadata = {
   title: 'Tömma dödsbo Göteborg? Vi tömmer och städar ditt dödsbo i Göteborg till det bästa priset',
   description:'Behöver du tömma ett dödsbo i Göteborg? Vi tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-  keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo'],
+  keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','tömma dödsbo','tömmer dödsbo i göteborg','röjer dödsbo i Göteborg','dödsbo göteborg','göteborg','dödsbo','tömma dödsbo Göteborrg'],
   metadataBase: new URL('https://tantrut.netlify.app'),
   alternates: {
     canonical: 'https://tantrut.netlify.app/tomma-dodsbo-goteborg',

@@ -1,10 +1,10 @@
 import styles from '../app/page.module.css'
 import { Box } from '@mui/material'
 import Divider from './Divider'
-const LeftSection = ({title,text,imgUrl,service,bannerText,titlesecond,servicesec,textsecond,imgUrlsec}) => {
+const LeftSection = ({title,text,imgUrl,service,bannerText,titlesecond,servicesec,textsecond,imgUrlsec,idtwo}) => {
   return (
     <div style={{marginTop:'25px',width:'100%'}}>
-    <div className={styles.heroMain} id='stadning'>
+    <div className={styles.heroMain} id={idtwo?idtwo:'stadning'}>
     <Box>
                 <img alt={title?title:'städning'} src={imgUrl?imgUrl:'https://img.freepik.com/free-vector/cleaning-service-concept-illustration_114360-9852.jpg?t=st=1731531099~exp=1731534699~hmac=6ed2e54648f742a3382968c0c5e7d668bf11b7a637a2458250a5b0face96b63a&w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>

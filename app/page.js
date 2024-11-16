@@ -9,11 +9,12 @@ import AccordionComp from "../components/AccordionComp";
 import DividerSection from "../components/DividerSection";
 import FooterComp from "../components/FooterComp";
 import Tesimonial from "../components/Tesimonial";
+import {sidor} from '../content/sidorna'
 export default function Home() {
   return (
     <div className={styles.page}>
     <header className={styles.header}>
-<HeaderComp />
+<HeaderComp sidor={sidor}/>
     </header>
       <main className={styles.main}>
     <HeroComp />

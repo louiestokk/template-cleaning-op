@@ -3,7 +3,7 @@ import styles from '../app/page.module.css'
 import { Box } from '@mui/material'
 import Divider from './Divider'
 import FormComp from './FormComp'
-const DividerSection = ({title,secondTitle,service,text,imgUrl}) => {
+const DividerSection = ({title,secondTitle,service,text,imgUrl,idone,idsec}) => {
   return (
     <div style={{width:'100%'}}>
         <div className={styles.heroMain} id='bortforsling'>
@@ -23,7 +23,7 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl}) => {
      
      </div>
      <Divider text={'Du är i trygga händer - Vi är försäkrade'}/>
-     <div className={styles.heroMain} id='dodsbon'>
+     <div className={styles.heroMain} id={idsec?idsec:'dodsbon'}>
      <Box>
      <Box>
                  <Box style={{height:'10px'}}></Box>
@@ -52,7 +52,7 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl}) => {
     </Box>
     </Box>
     </div>
-    <div className={styles.heroMain} id='kontorsstad'>
+    <div className={styles.heroMain} id={idone?idone:'kontorsstad'}>
      <Box>
      <Box>
                  <Box style={{height:'10px'}}></Box>

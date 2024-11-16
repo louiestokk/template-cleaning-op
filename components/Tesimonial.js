@@ -85,7 +85,7 @@ const homeTestimonial = [
       name: "Anna Svensson",
       img:'https://randomuser.me/api/portraits/women/68.jpg',
       service: "Städning",
-      testimonial: "Tant Rut hjälpte mig att snabbt hitta en pålitlig städfirma för vår vårstädning. Kundservicen var smidig och jag fick snabbt svar. Rekommenderas starkt!"
+      testimonial: "Tant Rut hjälpte mig med vårstädning som vi brukar göra varje år. Kundservicen var smidig och jag fick snabbt svar. Rekommenderas starkt!"
     },
     {
       name: "Fredrik Olsson",
@@ -103,7 +103,7 @@ const homeTestimonial = [
       name: "Johan Karlsson",
       img:'https://randomuser.me/api/portraits/men/57.jpg',
       service: "Hemstäd",
-      testimonial: "Vi har använt Tant Rut för hemstäd i flera månader nu och vi är jätte nöjda. Rekommenderar starkt!"
+      testimonial: "Trevlig personal som är självgående och effektiva. Vi har använt Tant Rut för hemstäd i flera månader nu och vi är jätte nöjda. Rekommenderar starkt!"
     },
     {
       name: "Eva Nilsson",

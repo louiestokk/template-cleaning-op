@@ -15,28 +15,28 @@ const PopularaBtns = lazy(()=> import('../../components/PopularaBtns'))
 import {accordionArray,accordionTwo,servicesArrayPop} from '../../content/dodsbo'
 import { sidorsalja } from '../../content/sidorna'
 export const metadata = {
-  title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+  title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
   description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-  keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo'],
+  keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','uppköp av dödsbo i Göteborg','köper dödsbo i Göteborg'],
   metadataBase: new URL('https://tantrut.netlify.app'),
   alternates: {
-    canonical: 'https://tantrut.netlify.app/salja-dodsbo-goteborg',
+    canonical: 'https://tantrut.netlify.app/kopa-dodsbo-goteborg',
     languages: {
       'sv': '/sv',
     },
   },
   openGraph: {
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
     images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-    url: 'https://tantrut.netlify.app/salja-dodsbo-goteborg',
+    url: 'https://tantrut.netlify.app/kopa-dodsbo-goteborg',
     site_name: 'Tant Rut Alltjänst',
     images: [
       {
         url: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
         width: 1260,
         height: 750,
-        alt: 'sälja dödsbo i Göteborg',
+        alt: 'köper dödsbo i Göteborg',
       }
     ],
     type: 'website',
@@ -45,7 +45,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@tanrut', 
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
@@ -55,11 +55,11 @@ export const metadata = {
   }
 }
 
-const SaljaDodsbo = () => {
+const KopaDodsbo = () => {
   const article = {
     "@context": "https://schema.org",
     "@type": "Article",
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     datePublished: '2024-11-15',
     author: {
@@ -84,7 +84,7 @@ const SaljaDodsbo = () => {
   );
 
   return (
-    <div className={styles.page} id='salja-dodsbo'>
+    <div className={styles.page} id='koper-dodsbo'>
     <JsonLd data={{
         "@context": "https://schema.org",
         "@type": "NewsArticle",
@@ -101,7 +101,7 @@ const SaljaDodsbo = () => {
 <HeaderComp sidor={sidorsalja}/>
     </header>
     <main className={styles.main}>
-    <HeroComp title={'Sälja dödsbo i Göteborg'} text={'Vi köper upp, städar och tömmer hushåll och dödsbon i Göteborg. Nyttja din rut när du använder våra tjänster!'}/>
+    <HeroComp title={'Köper dödsbo i Göteborg'} text={'Vi köper upp, städar och tömmer hushåll och dödsbon i Göteborg. Nyttja din rut när du använder våra tjänster!'}/>
     <div style={{height:'30px'}}></div>
     <HogerSection/>
     <TjansterCarousal />
@@ -170,4 +170,4 @@ const SaljaDodsbo = () => {
   )
 }
 
-export default SaljaDodsbo
+export default KopaDodsbo

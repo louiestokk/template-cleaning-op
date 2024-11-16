@@ -15,34 +15,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
 
-const sidor = [
-  {
-    title:'Städning',
-    path:'#stadning'
-  },
-  {
-    title:'Flytt',
-    path:'#flytt'
-  },
-  {
-    title:'Bortforsling',
-    path:'#bortforsling'
-  },
-  {
-    title:'Dödsbon',
-    path:'#dodsbon'
-  },
-  {
-    title:'Kontorsstäd',
-    path:'#kontorsstad'
-  },
-  {
-    title:'Kontakt',
-    path:'#kontakt'
-  }
-]
 
-const HeaderComp = () => {
+const HeaderComp = ({sidor}) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
   

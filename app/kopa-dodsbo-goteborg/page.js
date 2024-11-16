@@ -146,13 +146,13 @@ const KopaDodsbo = () => {
      </div>
      <article style={{height:'50px'}}></article>
      <AccordionComp accordionArray={accordionTwo}/>
-     <div className={styles.heroMain} id='stadning'>
+     <div className={styles.heroMain}>
     <article>
                 <img alt={'dödsbo'} src={'https://img.freepik.com/free-vector/women-winning-money-prize-happy-girls-holding-huge-dollar-banknote-flat-illustration_74855-14219.jpg?t=st=1731683637~exp=1731687237~hmac=c441ad257809337783bc2187003c3fbc02e9d5a3e7d06bad218fd81999188d8b&w=1380'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </article>
      <article>
      <article>
-                 <article style={{height:'10px'}}></article>
+                 <article style={{height:'10px'}} id='slutstadning'></article>
                  <h4 className={styles.titeln}>{'Bäst & Billigast'}</h4>
      <h2  className={styles.titeln}>{'Betalar bäst för dödsbon i Göteborg'}</h2>
      <p className={styles.textform}>

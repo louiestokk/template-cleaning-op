@@ -51,3 +51,39 @@ export const sidor = [
       path:'#kontakt'
   }
   ]
+
+  export const sidorflytt = [
+  {
+      title:'Flyttstäd',
+      path:'#flyttstad'
+  },
+  {
+    title:'Hemstäd',
+    path:'#hemstad'
+},
+{
+  title:'Kontorsstäd',
+  path:'#kontorsstad'
+},
+{
+  title:'Byggstäd',
+  path:'#byggstad'
+},
+{
+  title:'Fönsterputs',
+  path:'#fonsterputs'
+},
+{
+  title:'Dödsbostädning',
+  path:'#dodsbostadning'
+},
+{
+  title:'Slutstädninng',
+  path:'#slutstadning'
+},
+{
+  title:'Kontakt',
+  path:'#kontakt'
+},
+
+  ]

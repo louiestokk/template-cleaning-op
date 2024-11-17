@@ -14,7 +14,7 @@ const HogerSection = ({hogerTitle,hogerText,hogertop}) => {
     </Box>
       </Box>
       <Box>
-               <img alt='flyttfirma och städfirma' src='https://img.freepik.com/free-vector/team-concept-illustration_114360-688.jpg?t=st=1731531815~exp=1731535415~hmac=e21991e58ebb253066e96723fcc1cb238d024181b0e5c6d00fe235f3f7386604&w=1380' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+               <img alt='Tant Rut flyttfirma och städfirma' src='https://img.freepik.com/free-vector/team-concept-illustration_114360-688.jpg?t=st=1731883080~exp=1731886680~hmac=9c1515e6715c725891e5d62b3f5c998fe6017cf797da28bdef7f54c268d55edb&w=1380' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
     </Box>
     </div>
     </div>

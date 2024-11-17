@@ -34,13 +34,13 @@ export const metadata = {
     },
     openGraph: {
       title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg med städgaranti!',
-      images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
+      images: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
       url: 'https://tantrut.netlify.app/flyttstad-goteborg',
       site_name: 'Tant Rut Alltjänst',
       images: [
         {
-          url: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
+          url: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
           width: 1260,
           height: 750,
           alt: 'flyttstäd i Göteborg',
@@ -73,7 +73,7 @@ const FlyttstadGoteborg = () => {
           "@type": "Person",
           "name": "Tant Rut Alltjänsts"
         },
-        image: "https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800",
+        image: "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         publisher: {
           "@type": "Organization",
           "name": "Tant Rut Alltjänst",

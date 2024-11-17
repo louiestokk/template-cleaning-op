@@ -8,7 +8,7 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl,idone,idsec}) => 
     <div style={{width:'100%'}}>
         <div className={styles.heroMain} id='bortforsling'>
     <Box>
-                <img alt='bortforsling mäbler och grovsopor' src='https://img.freepik.com/free-vector/house-moving-illustration_52683-46999.jpg?t=st=1731541590~exp=1731545190~hmac=f9d10a18f180697916a4c01ca3c63347927ef099030bb449e4470419ebd3419c&w=1800' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt='bortforsling mäbler och grovsopor' src='https://img.freepik.com/free-vector/happy-family-moving-into-new-house-relocation_107791-16028.jpg?t=st=1731882752~exp=1731886352~hmac=b662565dc616c2cedeb1eb4d9500c2c00eb98e4b8220ea6cf3b3351f6c78d360&w=2000' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      <Box>
      <Box>
@@ -35,7 +35,7 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl,idone,idsec}) => 
      </Box>
        </Box>
        <Box>
-                <img alt='dödsbon, tömma och köpa dödsbo' src='https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt='dödsbon, tömma och köpa dödsbo' src='https://img.freepik.com/free-vector/creative-house-cross-section_23-2148670996.jpg?t=st=1731883207~exp=1731886807~hmac=ab51969fadfd9e9b274fb42d50b0e1dfa227b25ae36d4369a1365550b063db7d&w=1380' style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      </div>
      <div style={{height:'50px'}}></div>
@@ -52,6 +52,8 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl,idone,idsec}) => 
     </Box>
     </Box>
     </div>
+
+    <div style={{height:'40px'}}></div>
     <div className={styles.heroMain} id={idone?idone:'kontorsstad'}>
      <Box>
      <Box>
@@ -64,7 +66,7 @@ const DividerSection = ({title,secondTitle,service,text,imgUrl,idone,idsec}) => 
      </Box>
        </Box>
        <Box>
-                <img alt={secondTitle?secondTitle:'kontorrsstäd'} src={imgUrl?imgUrl:'https://img.freepik.com/premium-vector/cleaning-staff-team-working-office_179970-1861.jpg?w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt={secondTitle?secondTitle:'kontorrsstäd'} src={imgUrl?imgUrl:'https://img.freepik.com/free-vector/cleaning-service-concept-illustration_114360-9785.jpg?t=st=1731883402~exp=1731887002~hmac=b8794434e7b3012a084180f19d0868cfe0b1fa3bce2546fae5b562e94530f145&w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      </div>
     </div>

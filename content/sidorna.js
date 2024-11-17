@@ -87,3 +87,34 @@ export const sidor = [
 },
 
   ]
+
+  export const sidorFlyttfirma = [
+    {
+      title:'Flyttfirma',
+      path:'#flyttfirma-goteborg'
+    },
+    {
+      title:'Privatflytt',
+      path:'#privatflytt-goteborg'
+    },
+    {
+      title:'Företagsflytt',
+      path:'#foretagsflytt-goteborg'
+    },
+    {
+      title:'Utlandsflytt',
+      path:'#utlandsflytt'
+    },
+    {
+      title:'Flyttstädning',
+      path:'#flyttstadning-goteborg'
+    },
+    {
+      title:'Tömning dödsbo',
+      path:'#tomma-dodsbo-goteborg'
+    },
+    {
+      title:'Kontakt',
+      path:'#kontakt'
+    },
+  ]

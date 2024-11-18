@@ -5,6 +5,7 @@ import FormComp from './FormComp'
 import XIcon from '@mui/icons-material/X';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import {orterVastraGotaland} from '../content/orter'
 const FooterComp = () => {
   return (
     <footer style={{width:'100%'}} id='kontakt'>
@@ -41,6 +42,16 @@ const FooterComp = () => {
         <FormComp data={varaTjanster} title={'Gör en kostnadsfri förfrågan!'}/>
       </Box>
   
+    </div>
+    <div style={{width:'100%'}}>
+    <Box style={{height:'35px'}}></Box>
+    <h2 style={{textAlign:'center'}}>Service områden</h2>
+    <article style={{display:'flex',flexWrap:'wrap',width:'100%',justifyContent:'center'}}>
+    {orterVastraGotaland.map((el,i)=>(
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={el.path} title={el.title}>{el.title}</a>
+      ))}
+    </article>
+     
     </div>
     </footer>
   )

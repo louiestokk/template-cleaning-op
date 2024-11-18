@@ -23,7 +23,8 @@ export const metadata = {
         'flyttstäd Göteborg', 'flyttstädning Göteborg', 'flyttstäd hisingen', 'billig flyttstädning', 'flyttfirma', 
         'städa inför flytt', 'miljövänlig flyttstädning', 'flyttstäd pris', 'kontorsstäd', 
         'privatstäd', 'industristäd', 'byggstäd', 'flyttstäd checklista', 'garanterad flyttstädning',
-        'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg','flyttfirma Göteborg','flytthjälp Göteborg'
+        'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg','flyttfirma Göteborg','flytthjälp Göteborg',
+        'cityflytt','Guldhedens Flytt','vad kostar et flyttfirma i Göteborg','Flyttkillarna','reco.se'
       ],
     metadataBase: new URL('https://tantrut.netlify.app'),
     alternates: {

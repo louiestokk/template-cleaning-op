@@ -139,7 +139,7 @@ Oavsett om du behöver hjälp med en mindre bohagsflytt, en större företagsfly
                  <h4 className={styles.titeln}>{'Privatflytt'}</h4>
      <h2 className={styles.titeln}>{'Professionell privatflytt'}</h2>
      <p className={styles.textform}>
-     Att genomföra en privatflytt kan vara en stor och tidskrävande process, men med Tant Rut som din flyttpartner blir flytten både smidig och trygg. Vi erbjuder omfattande flyttjänster för privatpersoner som vill ha professionell hjälp hela vägen – från packning och transport till uppackning och slutstädning.
+     Att genomföra en <a href='#privatflytt' className={styles.lankar}>privatflytt</a> kan vara en stor och tidskrävande process, men med Tant Rut som din flyttpartner blir flytten både smidig och trygg. Vi erbjuder omfattande flyttjänster för privatpersoner som vill ha professionell hjälp hela vägen – från packning och transport till uppackning och slutstädning.
 
 Med vår långa erfarenhet av privatflytt i Göteborg och ett engagerat team, anpassar vi varje flytt efter dina specifika behov och önskemål. Vi hanterar allt från mindre flyttar inom staden till längre flyttar mellan städer, och vårt mål är alltid att ge dig en stressfri och säker flyttupplevelse.
      </p>
@@ -165,9 +165,9 @@ Med vår långa erfarenhet av privatflytt i Göteborg och ett engagerat team, an
                  <h4 className={styles.titeln}>{'Företagsflytt'}</h4>
      <h2  className={styles.titeln}>{'Trygg Företagsflytt för ditt Företag i Göteborg'}</h2>
      <p className={styles.textform}>
-     När det är dags för företagsflytt, är det viktigt att välja en flyttfirma som förstår företagets unika behov och som kan hantera processen effektivt. Tant Rut erbjuder professionella tjänster för företagsflytt i Göteborg och ser till att flytten går smidigt, så att ni kan återgå till arbetet utan onödiga avbrott.
+     När det är dags för företagsflytt, är det viktigt att välja en <a href='/flyttfirma-goteborg' title='flyttfirma göteborg' className={styles.lankar}>flyttfirma</a> som förstår företagets unika behov och som kan hantera processen effektivt. Tant Rut erbjuder professionella tjänster för företagsflytt i Göteborg och ser till att flytten går smidigt, så att ni kan återgå till arbetet utan onödiga avbrott.
 
-Med lång erfarenhet av företagsflytt hjälper vi företag att planera och genomföra alla steg av flyttprocessen – från noggrann packning och säker transport av kontorsmöbler och utrustning till uppackning och installation på den nya arbetsplatsen
+Med lång erfarenhet av  <a href='#foretagsflytt-goteborg' title='företagsflytt göteborg' className={styles.lankar}>företagsflytt</a> hjälper vi företag att planera och genomföra alla steg av flyttprocessen – från noggrann packning och säker transport av kontorsmöbler och utrustning till uppackning och installation på den nya arbetsplatsen
      </p>
      </Box>
        </Box>
@@ -217,7 +217,7 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
                  <h4 className={styles.titeln}>{'Tömma dödsbo'}</h4>
      <h2  className={styles.titeln}>{'Hjälp att tömma dödsbo '}</h2>
      <p className={styles.textform}>
-     Att tömma ett dödsbo är en känslomässigt tung och tidskrävande process, men med hjälp från Tant Rut blir det både enklare och mer hanterbart. Vi erbjuder professionell tömning av dödsbon i Göteborg och hanterar hela processen – från sortering och värdering av föremål till bortforsling och städning. 
+     Att <a href='/tomma-dodsbo-goteborg' title='tömma dödsbo göteborg' className={styles.lankar}>tömma ett dödsbo</a>  är en känslomässigt tung och tidskrävande process, men med hjälp från Tant Rut blir det både enklare och mer hanterbart. Vi erbjuder professionell tömning av dödsbon i Göteborg och hanterar hela processen – från sortering och värdering av föremål till bortforsling och städning. 
      </p>
      </article>
        </article>
@@ -233,7 +233,7 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
                  <h4 className={styles.titeln}>{'Dödsbo'}</h4>
      <h2  className={styles.titeln}>{'Dödsbostädning'}</h2>
      <p className={styles.textform}>
-     Vi erbjuder dödsbostädning för att underlätta en svår tid, med fokus på noggrannhet, omsorg och respekt. När ett dödsbo ska städas och förberedas, ser vi till att platsen blir fullständigt rengjord och iordningställd för nästa steg – oavsett om det handlar om försäljning, uthyrning eller fortsatt användning. Vi tar hand om allt från grovstädning till noggrann rengöring av ytor, kök, badrum och fönsterputsning. 
+     Vi erbjuder <a href='/stadar-dodsbon-goteborg' className={styles.lankar}>dödsbostädning</a>  för att underlätta en svår tid, med fokus på noggrannhet, omsorg och respekt. När ett dödsbo ska städas och förberedas, ser vi till att platsen blir fullständigt rengjord och iordningställd för nästa steg – oavsett om det handlar om försäljning, uthyrning eller fortsatt användning. Vi tar hand om allt från grovstädning till noggrann rengöring av ytor, kök, badrum och fönsterputsning. 
      </p>
      </article>
        </article>
@@ -253,7 +253,7 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
                  <h4 className={styles.titeln}>{'Flytthjälp'}</h4>
      <h2  className={styles.titeln}>{'Billig flytthjälp i Göteborg'}</h2>
      <p className={styles.textform}>
-     Om du söker prisvärd och samtidigt pålitlig flytthjälp i Göteborg är Tant Rut Alltjänst ett utmärkt val. Vi erbjuder konkurrenskraftiga priser utan att kompromissa med kvaliteten. Genom att utnyttja RUT-avdraget kan du dessutom få upp till 50 % rabatt på arbetskostnaden, vilket gör oss till ett av de mest prisvärda alternativen på marknaden.
+     Om du söker prisvärd och samtidigt pålitlig <a href='/flyttfirma-goteborg' title='flyttfirma Göteborg' className={styles.lankar}>flytthjälp i Göteborg</a>  är Tant Rut Alltjänst ett utmärkt val. Vi erbjuder konkurrenskraftiga priser utan att kompromissa med kvaliteten. Genom att utnyttja RUT-avdraget kan du dessutom få upp till 50 % rabatt på arbetskostnaden, vilket gör oss till ett av de mest prisvärda alternativen på marknaden.
      </p>
      </article>
        </article>

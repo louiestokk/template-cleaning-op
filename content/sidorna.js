@@ -153,3 +153,30 @@ export const sidor = [
     path:'#kontakt'
   },
 ]
+
+export const sidorbortforsling = [
+  {
+    title:'Bortforsling möbler',
+    path:'#bortforsling-mobler'
+  },
+  {
+    title:'Bortforsling grovavfall',
+    path:'#bortforsling-grovavfall'
+  },
+  {
+    title:'Hämtar skräp',
+    path:'#hamtar-skrap'
+  },
+  {
+    title:'Kör till tippen',
+    path:'#kora-till-tippen'
+  },
+  {
+    title:'Tömning av bohag',
+    path:'#tomma-bohag'
+  },
+  {
+    title:'Kontakt',
+    path:'#kontakt'
+  },
+]

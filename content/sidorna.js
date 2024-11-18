@@ -118,3 +118,38 @@ export const sidor = [
       path:'#kontakt'
     },
   ]
+
+  export const sidorstadfirma = [
+    {
+        title:'Flyttstäd',
+        path:'#flyttstad'
+    },
+    {
+      title:'Hemstäd',
+      path:'#hemstad'
+  },
+  {
+    title:'Kontorsstäd',
+    path:'#kontorsstad'
+  },
+  {
+    title:'Byggstäd',
+    path:'#byggstad'
+  },
+  {
+    title:'Fönsterputs',
+    path:'#fonsterputs'
+  },
+  {
+    title:'Dödsbostädning',
+    path:'#dodsbostadning'
+  },
+  {
+    title:'Städfirma',
+    path:'#stadfirma-goteborg'
+  },
+  {
+    title:'Kontakt',
+    path:'#kontakt'
+  },
+]

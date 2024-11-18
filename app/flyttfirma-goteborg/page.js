@@ -13,8 +13,8 @@ const Tesimonial = lazy(()=> import('../../components/Tesimonial'))
 const Divider = lazy(()=> import('../../components/Divider')) 
 const FooterComp = lazy(()=> import('../../components/FooterComp')) 
 const PopularaBtns = lazy(()=> import('../../components/PopularaBtns')) 
-import {accordionArray} from '../../content/dodsbo'
-import {servicesArrayPop,accordionTwo} from '../../content/flytt'
+
+import {servicesArrayPop,accordionThree,accordionArray} from '../../content/flytt'
 import { sidorFlyttfirma } from '../../content/sidorna'
 export const metadata = {
     title: 'Flyttfirma i Göteborg? Vi är Göteborgs mest omtyckat flyttfirma! Trygg & Privärd Flyttfirma',
@@ -199,10 +199,10 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
      <Box>
      <Box>
                  <Box style={{height:'10px'}} id='kontorsstad'></Box>
-                 <h4 className={styles.titeln}>{'Kontorsstäd'}</h4>
-     <h2  className={styles.titeln}>{'Kontorsstädning'}</h2>
+                 <h4 className={styles.titeln}>{'Bohagsflytt'}</h4>
+     <h2  className={styles.titeln}>{'Bohagsflytt Göteborg – Prisvärd Flytthjälp med Tant Rut'}</h2>
      <p className={styles.textform}>
-     Ge ditt team en ren och inspirerande arbetsplats med vår professionella kontorsstädning. Vi erbjuder noggrant anpassade städtjänster för kontor i alla storlekar och branscher, där vi tar hand om allt från dammtorkning av ytor och rengöring av gemensamma utrymmen till tömning av papperskorgar och golvvård. En ren arbetsmiljö förbättrar både trivsel och produktivitet, och vi ser till att allt från skrivbord till kök och toaletter alltid är i bästa skick. 
+     Letar du efter trygg och prisvärd hjälp med din bohagsflytt i Göteborg? Hos Tant Rut Alltjänst erbjuder vi professionella flyttjänster anpassade efter dina behov. Med vår erfarenhet och omsorg ser vi till att din flytt blir smidig och stressfri. Tack vare RUT-avdraget får du dessutom ett prisvärt alternativ för flytthjälp. Kontakta oss idag för en kostnadsfri offert och låt oss göra din bohagsflytt enkel och effektiv!
      </p>
      </Box>
        </Box>
@@ -242,7 +242,7 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
      </article>
      </div>
      <article style={{height:'50px'}}></article>
-     <AccordionComp accordionArray={accordionTwo}/>
+     <AccordionComp accordionArray={accordionThree}/>
      <div className={styles.heroMain} id='slutstadning'>
     <article>
                 <img alt={'dödsbo'} src={'https://img.freepik.com/free-vector/women-winning-money-prize-happy-girls-holding-huge-dollar-banknote-flat-illustration_74855-14219.jpg?t=st=1731683637~exp=1731687237~hmac=c441ad257809337783bc2187003c3fbc02e9d5a3e7d06bad218fd81999188d8b&w=1380'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
@@ -250,16 +250,59 @@ Vi hanterar allt som rör utlandsflytt – från packning och transport av bohag
      <article>
      <article>
                  <article style={{height:'10px'}}></article>
-                 <h4 className={styles.titeln}>{'Bäst & Billigast'}</h4>
-     <h2  className={styles.titeln}>{'Tant Ruts slutstädning'}</h2>
+                 <h4 className={styles.titeln}>{'Flytthjälp'}</h4>
+     <h2  className={styles.titeln}>{'Billig flytthjälp i Göteborg'}</h2>
      <p className={styles.textform}>
-     Behöver du en pålitlig slutstädning inför flytten? Vi erbjuder en komplett och professionell slutstädning som uppfyller alla krav för besiktning och överlämning. Vårt erfarna team tar hand om allt från grundlig rengöring av kök och badrum till fönsterputsning, dammsugning och avtorkning av alla ytor. Vi ser till att även detaljer som lister, garderober och svåråtkomliga utrymmen blir skinande rena, så att du kan känna dig trygg med att lämna bostaden i perfekt skick.
+     Om du söker prisvärd och samtidigt pålitlig flytthjälp i Göteborg är Tant Rut Alltjänst ett utmärkt val. Vi erbjuder konkurrenskraftiga priser utan att kompromissa med kvaliteten. Genom att utnyttja RUT-avdraget kan du dessutom få upp till 50 % rabatt på arbetskostnaden, vilket gör oss till ett av de mest prisvärda alternativen på marknaden.
      </p>
      </article>
        </article>
      
      </div>
-     
+     <article style={{height:'50px'}}></article>
+     <article style={{width:'100%'}}>
+     <div style={{ justifyContent:'center',margin:'0 auto',alignItems:'center',textAlign:'center'}}>
+     <Box>
+     <h2 style={{textAlign:'center'}} className={styles.titeln}>Tant Rut</h2>
+      <p style={{fontSize:'0.85rem',lineHeight:'22px',margin:'0 auto',maxWidth:'700px',marginBottom:'25px'}} className={styles.textform}><strong>När du anlitar Tant Rut Alltjänst i Göteborg </strong> får du en smidig och prisvärd flyttupplevelse. Vi erbjuder flytthjälp med två flyttkillar och lätt lastbil för endast 799 kr per timme. En startavgift på 500 kr tillkommer, vilket är standard bland seriösa flyttföretag.
+
+Hos Tant Rut skiljer vi oss från många andra flyttfirmor genom att inte ha någon minimidebitering – du betalar bara för tiden vi faktiskt arbetar, plus startavgiften. Många konkurrenter kräver debitering på minst 3–5 timmar, men hos oss slipper du dolda kostnader.
+
+Som en mindre och kundfokuserad flyttfirma i Göteborg prioriterar vi personlig service och hög kvalitet. Vi är stolta över att erbjuda trygg och effektiv hjälp för både privatpersoner och företag i hela Göteborgsområdet. Välj Tant Rut Alltjänst för en professionell flytt utan onödiga krångligheter!
+
+Kontakta oss idag för en kostnadsfri offert – vi ser fram emot att hjälpa dig med din flytt!</p>
+     </Box>
+     </div>
+  
+<Box className={styles.classic}>
+<ul>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Trygg och säker flytt:</strong> Vi skyddar dina möbler och ägodelar noggrant under hela flytten för att säkerställa att de når sin nya plats utan skador.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}> Försäkrade flyttjänster:</strong> Tant Rut Alltjänst är ett fullt försäkrat flyttföretag, vilket ger dig extra trygghet vid flytten.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Erfaret och utbildat team:</strong> Våra flyttkillar är professionellt utbildade och har lång erfarenhet av att hantera flyttar av alla slag, stora som små.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Flexibel och personlig service:</strong> Vi anpassar våra flyttjänster efter dina specifika behov och ser till att din flytt blir så smidig som möjligt.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Prisvärd flytthjälp i Göteborg:</strong> Med konkurrenskraftiga priser och RUT-avdrag gör vi din flytt både enkel och ekonomisk.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Effektiv och snabb flytt:</strong> Vårt erfarna team ser till att din flytt går snabbt och effektivt, vilket sparar både tid och pengar.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Ingen minimidebitering:</strong> Hos oss betalar du endast för den faktiska arbetstiden – utan onödiga extra avgifter.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Flytt i hela Göteborgsområdet:</strong> Vi erbjuder flytthjälp över hela Göteborg, från centrala områden till förorter som Majorna och Kungälv.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Smidig hantering av tunga lyft:</strong> Vi tar hand om de tunga lyften så att du slipper stressen och risken för skador vid flytten.</li>
+    <li style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Snabb och enkel offert:</strong> Kontakta oss för en snabb och kostnadsfri offert så får du veta exakt vad din flytt kommer att kosta.</li>
+</ul>
+<ul>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Erfaren flyttfirma i Göteborg:</strong> Vi på Tant Rut Alltjänst har många års erfarenhet av flyttjänster i hela Göteborg, vilket gör oss till en pålitlig partner för din flytt.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>RUT-avdrag för lägre kostnader:</strong> Ta del av RUT-avdraget och spara upp till 50% på arbetskostnaden när du anlitar oss för din flytt i Göteborg.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Vi hanterar alla typer av flyttar:</strong> Oavsett om det handlar om en liten lägenhet eller ett stort företag, har vi resurser och erfarenhet för att hantera flyttar av alla storlekar.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Vårt team är professionellt och pålitligt:</strong> Vi värdesätter god kommunikation och att våra kunder känner sig trygga hela vägen genom flytten.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Enkel och snabb bokning:</strong> Vi gör det lätt för dig att boka flytthjälp – enkelt via telefon eller e-post, och vi kan hjälpa till med samma dag vid akuta behov.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Fokus på kundnöjdhet:</strong> Vår kundservice är alltid nära till hands för att svara på frågor och lösa eventuella problem som kan uppstå under flytten.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Effektiv packning och lastning:</strong> Vi erbjuder hjälp med packning och lastning, vilket gör din flytt ännu smidigare och enklare.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Miljövänlig flytt:</strong> Vi strävar efter att göra våra flyttar så miljövänliga som möjligt genom att återvinna och använda hållbara transportlösningar.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Inget dolda avgifter:</strong> Vi är transparenta med våra priser och inga dolda avgifter tillkommer – du betalar för det du får, inget mer.</li>
+    <li  style={{fontSize:'0.85rem',lineHeight:'22px'}}  className={styles.textform}><strong className={styles.titeln}>Flytt med omtanke:</strong> Hos oss är det viktigt att du som kund känner att vi tar hand om din flytt och dina saker med största omsorg och respekt.</li>
+</ul>
+</Box>
+
+
+     </article>
     </main>
     <div style={{height:'75px'}}></div>
     <FooterComp />

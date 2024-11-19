@@ -10,6 +10,7 @@ import DividerSection from "../components/DividerSection";
 import FooterComp from "../components/FooterComp";
 import Tesimonial from "../components/Tesimonial";
 import {sidor} from '../content/sidorna'
+import {accordionArray} from '../content/flytt'
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -24,7 +25,7 @@ export default function Home() {
     <TjansterCarousal />
     <div style={{height:'70px'}}></div>
     <LeftSection />
-    <AccordionComp />
+    <AccordionComp accordionArray={accordionArray}/>
     <DividerSection />
     <Tesimonial />
       </main>

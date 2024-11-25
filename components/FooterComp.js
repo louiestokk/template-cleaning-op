@@ -43,16 +43,58 @@ const FooterComp = () => {
       </Box>
   
     </div>
-    <div style={{width:'100%'}}>
+    <article className={styles.footerlinkseo}>
+    <div className={styles.footldkah} style={{width:'100%'}}>
     <Box style={{height:'35px'}}></Box>
-    <h2 style={{textAlign:'center'}}>Service områden</h2>
-    <article style={{display:'flex',flexWrap:'wrap',width:'100%',justifyContent:'center'}}>
+    <h2>Hemstäd</h2>
+    <article style={{display:'flex',flexDirection:'column',width:'100%',justifyContent:'center'}}>
     {orterVastraGotaland.map((el,i)=>(
-        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={el.path} title={el.title}>{el.title}</a>
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={`/hemstad/hemstad-${el.path}`} title={`hemstäd i ${el.title}`}>Hemstäd i {el.title}</a>
       ))}
     </article>
      
     </div>
+    <div style={{width:'100%'}} className={styles.footldkah}>
+    <Box style={{height:'35px'}}></Box>
+    <h2>Flyttstäd</h2>
+    <article style={{display:'flex',flexDirection:'column',width:'100%',justifyContent:'center'}}>
+    {orterVastraGotaland.map((el,i)=>(
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={`/flytt/flyttstad/flyttstad-${el.path}`} title={`flyttstäd i ${el.title}`}>Flyttstäd i {el.title}</a>
+      ))}
+    </article>
+     
+    </div>
+    <div style={{width:'100%'}} className={styles.footldkah}>
+    <Box style={{height:'35px'}}></Box>
+    <h2>Kontorsstäd</h2>
+    <article style={{display:'flex',flexDirection:'column',width:'100%',justifyContent:'center'}}>
+    {orterVastraGotaland.map((el,i)=>(
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={`/kontor/kontorsstad-${el.path}`} title={`kontorsstäd i ${el.title}`}>Kontorsstäd i {el.title}</a>
+      ))}
+    </article>
+     
+    </div>
+    <div style={{width:'100%'}} className={styles.footldkah}>
+    <Box style={{height:'35px'}}></Box>
+    <h2>Bortforsling</h2>
+    <article style={{display:'flex',flexDirection:'column',width:'100%',justifyContent:'center'}}>
+    {orterVastraGotaland.map((el,i)=>(
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={`/atervinning/bortforsling-${el.path}`} title={`bortforsling i ${el.title}`}>Bortforsling i {el.title}</a>
+      ))}
+    </article>
+     
+    </div>
+    <div style={{width:'100%'}} className={styles.footldkah}>
+    <Box style={{height:'35px'}}></Box>
+    <h2>Flyttfirma</h2>
+    <article style={{display:'flex',flexDirection:'column',width:'100%',justifyContent:'center'}}>
+    {orterVastraGotaland.map((el,i)=>(
+        <a style={{margin:'0.25rem 0.25rem',color:'inherit'}}  key={i} href={`/flytthjalp/flyttfirma-${el.path}`} title={`foretagsflytt i ${el.title}`}>Flyttstäd i {el.title}</a>
+      ))}
+    </article>
+     
+    </div>
+    </article>
     </footer>
   )
 }

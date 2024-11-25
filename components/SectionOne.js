@@ -20,7 +20,9 @@ const SectionOne = () => {
        </Box>
      
      </div>
+     <article style={{height:'30px'}}></article>
    <Divider text={'Utnyttja ditt RUT-avdrag 50%'}/>
+   <article style={{height:'30px'}}></article>
      <div className={styles.heroMain} id='flytt'>
      <Box>
      <Box>

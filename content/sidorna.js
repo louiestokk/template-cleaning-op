@@ -36,7 +36,7 @@ export const sidor = [
     },
     {
         title:'Värdera dödsbo',
-        path:'#vardera-dodsbo-goteborg'
+        path:'#varderar-dodsbo-goteborg'
     },
     {
         title:'Städa dödsbo',

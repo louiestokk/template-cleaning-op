@@ -15,7 +15,7 @@ const PopularaBtns = lazy(()=> import('../../components/PopularaBtns'))
 import {accordionArray,accordionTwo,servicesArrayPop} from '../../content/dodsbo'
 import { sidorsalja } from '../../content/sidorna'
 export const metadata = {
-  title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+  title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg!',
   description:'Behöver ni städa ett dödsbo i Göteborg? Vi städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
   keywords: ['städa dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','dödsbostädning','städning av dödsbo i Göteborg','städa dödsbo göteborg'],
   metadataBase: new URL('https://tantrut-alltjanst.com'),
@@ -26,7 +26,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg!',
     images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
     description:'Behöver ni städa ett dödsbo i Göteborg? Vi städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     url: 'https://tantrut-alltjanst.com/stadar-dodsbon-goteborg',
@@ -45,7 +45,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@tanrut', 
-    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg!',
     description:'Behöver ni städa ett dödsbo i Göteborg? Vi städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
@@ -59,7 +59,7 @@ const StadaDodsbo = () => {
   const article = {
     "@context": "https://schema.org",
     "@type": "Article",
-    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Städa dödsbo Göteborg? Vi städar ditt dödsbo i Göteborg!',
     description:'Behöver ni städa ett dödsbo i Göteborg? Vi städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     datePublished: '2024-11-15',
     author: {

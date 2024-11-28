@@ -79,7 +79,7 @@ export const accordionTwo = [
       },
       {
         title: "Värdering av dödsbo",
-        path:'/vardera-dodsbo-goteborg'
+        path:'/varderar-dodsbo-goteborg'
       },
       {
         title: "Uppköp av lösöre",

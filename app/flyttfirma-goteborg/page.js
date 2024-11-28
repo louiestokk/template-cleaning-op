@@ -17,7 +17,7 @@ const PopularaBtns = lazy(()=> import('../../components/PopularaBtns'))
 import {servicesArrayPop,accordionThree,accordionArray} from '../../content/flytt'
 import { sidorFlyttfirma } from '../../content/sidorna'
 export const metadata = {
-    title: 'Flyttfirma i Göteborg? Vi är Göteborgs mest omtyckat flyttfirma! Trygg & Privärd Flyttfirma',
+    title: 'Flyttfirma i Göteborg? Trygg & Privärd Flyttfirma i Göteborg',
     description:'Behöver du hjälp med att hitta en bra flyttfirma i Göteborg? Tant Rut ser till att du får den bästa flytten i Göteborg! Trygg & Prisvärd flyttfirma i Göteborg.',
     keywords: [
         'flyttstäd Göteborg', 'flyttstädning Göteborg', 'flyttstäd hisingen', 'billig flyttstädning', 'flyttfirma', 
@@ -34,7 +34,7 @@ export const metadata = {
       },
     },
     openGraph: {
-      title: 'Flyttfirma i Göteborg? Vi är Göteborgs mest omtyckat flyttfirma! Trygg & Privärd Flyttfirma',
+      title: 'Flyttfirma i Göteborg? Trygg & Privärd Flyttfirma i Göteborg',
       images: 'https://images.pexels.com/photos/5025639/pexels-photo-5025639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med att hitta en bra flyttfirma i Göteborg? Tant Rut ser till att du får den bästa flytten i Göteborg! Trygg & Prisvärd flyttfirma i Göteborg.',
       url: 'https://tantrut-alltjanst.com/flyttfirma-goteborg',
@@ -53,7 +53,7 @@ export const metadata = {
     twitter: {
       card: 'summary_large_image',
       site: '@tanrut', 
-      title: 'Flyttfirma i Göteborg? Vi är Göteborgs mest omtyckat flyttfirma! Trygg & Privärd Flyttfirma',
+      title: 'Flyttfirma i Göteborg? Trygg & Privärd Flyttfirma i Göteborg',
       description:'Behöver du hjälp med att hitta en bra flyttfirma i Göteborg? Tant Rut ser till att du får den bästa flytten i Göteborg! Trygg & Prisvärd flyttfirma i Göteborg.',
       image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
@@ -67,7 +67,7 @@ const FlyttfirmaGoteborg = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: 'Flyttfirma i Göteborg? Vi är Göteborgs mest omtyckat flyttfirma! Trygg & Privärd Flyttfirma',
+        title: 'Flyttfirma i Göteborg? Trygg & Privärd Flyttfirma i Göteborg',
         description:'Behöver du hjälp med att hitta en bra flyttfirma i Göteborg? Tant Rut ser till att du får den bästa flytten i Göteborg! Trygg & Prisvärd flyttfirma i Göteborg.',
         datePublished: '2024-11-15',
         author: {

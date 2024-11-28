@@ -17,7 +17,7 @@ import {accordionArray} from '../../content/dodsbo'
 import {servicesArrayPop,accordionTwo} from '../../content/flytt'
 import { sidorstadfirma } from '../../content/sidorna'
 export const metadata = {
-    title: 'Städfirma i Göteborg? Vi är Göteborgs mest omtyckat städfirma! Trygg & Privärd Städfirma',
+    title: 'Städfirma i Göteborg? Trygg & Privärd Städfirma i Göteborg',
     description:'Behöver du hjälp med att hitta en bra städfirma i Göteborg? Tant Rut ser till att du får den bästa städningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
     keywords: [
         'flyttstäd Göteborg', 'flyttstädning Göteborg', 'flyttstäd hisingen', 'billig flyttstädning', 'flyttfirma', 
@@ -34,7 +34,7 @@ export const metadata = {
       },
     },
     openGraph: {
-      title: 'Städfirma i Göteborg? Vi är Göteborgs mest omtyckat städfirma! Trygg & Privärd Städfirma',
+      title: 'Städfirma i Göteborg? Trygg & Privärd Städfirma i Göteborg',
       images: 'https://images.pexels.com/photos/4099471/pexels-photo-4099471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med att hitta en bra städfirma i Göteborg? Tant Rut ser till att du får den bästa städningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
       url: 'https://tantrut-alltjanst.com/stadfirma-goteborg',
@@ -53,7 +53,7 @@ export const metadata = {
     twitter: {
       card: 'summary_large_image',
       site: '@tanrut', 
-      title: 'Städfirma i Göteborg? Vi är Göteborgs mest omtyckat städfirma! Trygg & Privärd Städfirma',
+      title: 'Städfirma i Göteborg? Trygg & Privärd Städfirma i Göteborg',
       description:'Behöver du hjälp med att hitta en bra städfirma i Göteborg? Tant Rut ser till att du får den bästa städningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
       image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
@@ -67,7 +67,7 @@ const StadfirmaGoteborg = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: 'Städfirma i Göteborg? Vi är Göteborgs mest omtyckat städfirma! Trygg & Privärd Städfirma',
+        title: 'Städfirma i Göteborg? Trygg & Privärd Städfirma i Göteborg',
         description:'Behöver du hjälp med att hitta en bra städfirma i Göteborg? Tant Rut ser till att du får den bästa städningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
         datePublished: '2024-11-15',
         author: {

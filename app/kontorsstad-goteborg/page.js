@@ -17,7 +17,7 @@ import {accordionArray} from '../../content/dodsbo'
 import {servicesArrayPop,accordionTwo} from '../../content/flytt'
 import { sidorflytt } from '../../content/sidorna'
 export const metadata = {
-    title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg med städgaranti!',
+    title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg!',
     description:'Behöver du hjälp med kontorstäd i Göteborg? Tant Rut ser till att du får den bästa kontorsstädningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
     keywords: [
         'kontorsstäd Göteborg', 'kontorsstädning Göteborg', 'flyttstäd hisingen', 'billig flyttstädning', 'flyttfirma', 
@@ -33,7 +33,7 @@ export const metadata = {
       },
     },
     openGraph: {
-      title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg med städgaranti!',
+      title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg!',
       images: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med kontorstäd i Göteborg? Tant Rut ser till att du får den bästa kontorsstädningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
       url: 'https://tantrut-alltjanst.com/kontorsstad-goteborg',
@@ -52,7 +52,7 @@ export const metadata = {
     twitter: {
       card: 'summary_large_image',
       site: '@tanrut', 
-      title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg med städgaranti!',
+      title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg!',
       description:'Behöver du hjälp med kontorstäd i Göteborg? Tant Rut ser till att du får den bästa kontorsstädningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
       image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
@@ -66,7 +66,7 @@ const KontorsstadGoteborg = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg med städgaranti!',
+        title: 'Kontorsstäd i Göteborg? Vi hjälper dig med kontorsstädning i Göteborg!',
         description:'Behöver du hjälp med kontorstäd i Göteborg? Tant Rut ser till att du får den bästa kontorsstädningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
         datePublished: '2024-11-15',
         author: {

@@ -15,7 +15,7 @@ const PopularaBtns = lazy(()=> import('../../components/PopularaBtns'))
 import {accordionArray,accordionTwo,servicesArrayPop} from '../../content/dodsbo'
 import { sidorsalja } from '../../content/sidorna'
 export const metadata = {
-  title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+  title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
   description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
   keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg',
     'dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar',
@@ -30,7 +30,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
     images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     url: 'https://tantrut-alltjanst.com/salja-dodsbo-goteborg',
@@ -49,7 +49,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@tanrut', 
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
@@ -63,7 +63,7 @@ const SaljaDodsbo = () => {
   const article = {
     "@context": "https://schema.org",
     "@type": "Article",
-    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg till det bästa priset | Tant Rut',
+    title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     datePublished: '2024-11-15',
     author: {

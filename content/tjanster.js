@@ -55,7 +55,7 @@ export const services = [
     },
     {
         service:'Värdera dödsbon',
-        path:'/vardera-dodsbo-goteborg',
+        path:'/varderar-dodsbo-goteborg',
         image:'https://img.freepik.com/premium-vector/accounting-auditing-service-business-man-looking-through-magnifying-glass-bill-check_566886-10598.jpg?w=1380',
         text:'Att värdera ett dödsbo kan vara både känslomässigt och praktiskt utmanande. Tant Rut erbjuder professionell och respektfull värdering av dödsbo för att underlätta denna process. Våra erfarna medarbetare gör en noggrann genomgång av inventarierna och ger en rättvis värdering.'
     },

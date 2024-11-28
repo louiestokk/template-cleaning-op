@@ -17,7 +17,7 @@ import {accordionArray} from '../../content/dodsbo'
 import {servicesArrayPop,accordionTwo} from '../../content/flytt'
 import { sidorflytt } from '../../content/sidorna'
 export const metadata = {
-    title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg med städgaranti!',
+    title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg!',
     description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
     keywords: [
         'flyttstäd Göteborg', 'flyttstädning Göteborg', 'flyttstäd hisingen', 'billig flyttstädning', 'flyttfirma', 
@@ -33,7 +33,7 @@ export const metadata = {
       },
     },
     openGraph: {
-      title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg med städgaranti!',
+      title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg!',
       images: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
       url: 'https://tantrut-alltjanst.com/flyttstad-goteborg',
@@ -52,7 +52,7 @@ export const metadata = {
     twitter: {
       card: 'summary_large_image',
       site: '@tanrut', 
-      title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg med städgaranti!',
+      title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg!',
       description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
       image: 'https://images.pexels.com/photos/4098778/pexels-photo-4098778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
@@ -66,7 +66,7 @@ const FlyttstadGoteborg = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg med städgaranti!',
+        title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg!',
         description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
         datePublished: '2024-11-15',
         author: {

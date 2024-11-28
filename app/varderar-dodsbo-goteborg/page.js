@@ -15,7 +15,7 @@ const PopularaBtns = lazy(()=> import('../../components/PopularaBtns'))
 import {accordionArray,accordionTwo,servicesArrayPop} from '../../content/dodsbo'
 import { sidorsalja } from '../../content/sidorna'
 export const metadata = {
-  title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering för dödsbo i Göteborg.',
+  title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering!',
   description:'Behöver du värdera ett dödsbo i Göteborg? Vi värderar, tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
   keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','tömma dödsbo','tömmer dödsbo i göteborg','röjer dödsbo i Göteborg','dödsbo göteborg','göteborg','dödsbo','tömma dödsbo Göteborrg','dödsbovärdering','värderar dödsbo i Göteborg'],
   metadataBase: new URL('https://tantrut-alltjanst.com'),
@@ -26,7 +26,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering för dödsbo i Göteborg.',
+    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering!',
     images: 'https://tantrut-alltjanst.com/hero.jpg',
     description:'Behöver du värdera ett dödsbo i Göteborg? Vi värderar, tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     url: 'https://tantrut-alltjanst.com/varderar-dodsbo-goteborg',
@@ -45,7 +45,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@tanrut', 
-    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering för dödsbo i Göteborg.',
+    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering!',
     description:'Behöver du värdera ett dödsbo i Göteborg? Vi värderar, tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     image: 'https://tantrut-alltjanst.com/hero.jpg',
   },
@@ -59,7 +59,7 @@ const VarderaDodsbo = () => {
   const article = {
     "@context": "https://schema.org",
     "@type": "Article",
-    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering för dödsbo i Göteborg.',
+    title: 'Värdera dödsbo Göteborg? Vi erbjuder kostnadsfri värdering!',
     description:'Behöver du värdera ett dödsbo i Göteborg? Vi värderar, tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
     datePublished: '2024-11-15',
     author: {

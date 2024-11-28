@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 
-Sitemap: https://tantrut.netlify.app/sitemap.xml
+Sitemap: https://tantrut-alltjanst.com/sitemap.xml

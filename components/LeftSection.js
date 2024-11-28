@@ -6,7 +6,7 @@ const LeftSection = ({title,text,imgUrl,service,bannerText,titlesecond,servicese
     <div style={{marginTop:'25px',width:'100%'}}>
     <div className={styles.heroMain} id={idtwo?idtwo:'stadning'}>
     <Box>
-                <img alt={title?title:'städning'} src={imgUrl?imgUrl:'https://img.freepik.com/free-vector/cleaning-service-concept-illustration_114360-9852.jpg?t=st=1731531099~exp=1731534699~hmac=6ed2e54648f742a3382968c0c5e7d668bf11b7a637a2458250a5b0face96b63a&w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt={title?title:'städning'} src={imgUrl?imgUrl:'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      <Box>
      <Box>
@@ -33,7 +33,7 @@ const LeftSection = ({title,text,imgUrl,service,bannerText,titlesecond,servicese
      </Box>
        </Box>
        <Box>
-                <img alt={titlesecond?titlesecond:'Flyttfirma'} src={imgUrlsec?imgUrlsec:'https://img.freepik.com/free-vector/moving-concept-illustration_114360-8292.jpg?t=st=1731537696~exp=1731541296~hmac=67d81f44920ef5a6eebd759148d358c050b7987eeeaa1f7c8a82f448e72b2cd3&w=1800'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
+                <img alt={titlesecond?titlesecond:'Flyttfirma'} src={imgUrlsec?imgUrlsec:'https://images.pexels.com/photos/271711/pexels-photo-271711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} style={{width:'100%',height:'400px',objectFit:'contain'}}/>
      </Box>
      </div>
      

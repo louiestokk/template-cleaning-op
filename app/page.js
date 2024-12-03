@@ -26,96 +26,79 @@ export default function Home() {
     <div style={{height:'70px'}}></div>
     <LeftSection />
     <AccordionComp accordionArray={accordionArray}/>
-    <div className={styles.blekguidesec} id="flyttfirma-goteborg">
+    <div className={styles.blekguidesec} id="stadfirma-info">
   <article>
     <h2 style={{ maxWidth: '500px', lineHeight: '52px', fontSize: '2.4rem' }} className={styles.titeln}>
-      Flyttfirma i Göteborg – Vad kostar det och vad ska du tänka på?
+      Städfirma i Göteborg – Hemstäd, Flyttstäd och Kontorsstäd
     </h2>
     <p className={styles.specialarre}>
-      Letar du efter en pålitlig flyttfirma i Göteborg? Här hittar du information om priser, tjänster och tips för att välja rätt flyttfirma. Oavsett om du flyttar inom Göteborg eller till en ny stad hjälper vi dig att jämföra alternativen.
+      Letar du efter professionell hjälp med städning eller flytt i Göteborg? Här går vi igenom priser, tjänster och tips för att välja rätt firma för hemstädning, flyttstädning eller kontorsstädning. Få svar på vanliga frågor och gör ett informerat val!
     </p>
 
-    <div style={{ marginTop: '30px' }} id="flyttfirma-info">
-      <h2 className={styles.titeln}>Vad kostar en flyttfirma i Göteborg?</h2>
+    <div style={{ marginTop: '30px' }} id="stadfirma-tjanster">
+      <h2 className={styles.titeln}>Vilka tjänster erbjuder en städfirma i Göteborg?</h2>
+      <ul className={styles.textform}>
+        <li>Hemstädning – regelbunden eller engångsstädning</li>
+        <li>Flyttstädning – noggrann rengöring inför flytt</li>
+        <li>Kontorsstädning – anpassad efter företags behov</li>
+        <li>Byggstädning – grovstädning efter renoveringar</li>
+        <li>Fönsterputsning – skinande rena fönster</li>
+      </ul>
+
+      <h2 style={{ marginTop: '20px' }} className={styles.titeln}>Vad kostar städtjänster i Göteborg?</h2>
       <p className={styles.textform}>
-        Priset för en flyttfirma i Göteborg varierar beroende på tjänst och omfattning. Genomsnittliga timpriser är mellan <strong>500–1 200 SEK</strong>, och många företag erbjuder paketlösningar för större flyttar. Extra kostnader kan tillkomma för packhjälp, transport eller magasinering.
+        Priser för städtjänster varierar beroende på tjänst och omfattning. För hemstädning ligger timpriset mellan <strong>150–250 SEK</strong> efter RUT-avdrag. Flyttstädning kostar vanligtvis mellan <strong>30–50 SEK/kvm</strong>, beroende på bostadens skick.
       </p>
-
-      <h2 style={{ marginTop: '20px' }} className={styles.titeln}>Vad ingår i en flyttjänst?</h2>
-      <ul className={styles.textform}>
-        <li>Lastning och lossning av flyttgods</li>
-        <li>Transport till den nya bostaden</li>
-        <li>Paket- och packhjälp (mot extra kostnad)</li>
-        <li>Magasinering för kort- eller långtid</li>
-        <li>Specialtransporter för tunga eller ömtåliga föremål</li>
-      </ul>
-
-      <h2 style={{ marginTop: '20px' }} className={styles.titeln}>Tips för att spara pengar vid flytten</h2>
-      <ul className={styles.textform}>
-        <li>Boka flytten i god tid för att få bästa pris.</li>
-        <li>Packa och demontera möbler själv.</li>
-        <li>Jämför priser från flera flyttfirmor i Göteborg.</li>
-        <li>Välj en flyttfirma som erbjuder RUT-avdrag för flyttjänster.</li>
-      </ul>
     </div>
   </article>
 
   <article>
-    <img
-      loading="lazy"
-      alt={'Flyttfirma Göteborg - Pris och Tjänster'}
-      src={
-        'https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-      }
-      style={{ width: '100%', height: '340px', objectFit: 'contain' }}
-    />
-
-<ul style={{ marginTop: '20px' }}>
-  <h2 className={styles.titeln}>Vanliga frågor om flyttfirmor i Göteborg</h2>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Hur bokar jag en flyttfirma?</strong>
-    Kontakta flyttfirman för att få en offert och boka i förväg, helst minst två veckor innan flyttdagen.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Vilka extra kostnader kan tillkomma?</strong>
-    Kostnader för packning, flyttlådor eller tunga lyft som pianon kan tillkomma.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Kan jag få RUT-avdrag?</strong>
-    Ja, flyttjänster är berättigade till RUT-avdrag, vilket ger dig 50 % rabatt på arbetskostnaden.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Hur lång tid tar en flytt?</strong>
-    För en normalstor lägenhet tar flytten mellan 3–6 timmar beroende på avstånd och mängd gods.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Hur säkerställer jag att mina saker är försäkrade?</strong>
-    Kontrollera att flyttfirman erbjuder ansvarsförsäkring och att din hemförsäkring täcker skador vid flytt.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Vad kostar en flyttfirma i Göteborg?</strong>
-    Priser varierar beroende på flyttstorlek och avstånd, men genomsnittet är 800–1200 SEK per timme för två personer och lastbil.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Kan flyttfirman hjälpa till med packning?</strong>
-    Ja, många flyttfirmor erbjuder packhjälp som en tilläggstjänst mot extra kostnad.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Är det billigare att flytta på vardagar?</strong>
-    Ja, priserna är ofta lägre på vardagar jämfört med helger och helgdagar.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Vad händer om flyttfirman skadar mina saker?</strong>
-    Om något skadas under flytten täcker flyttfirmans ansvarsförsäkring detta, men dokumentera skador direkt.
-  </li>
-  <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
-    <strong className={styles.titeln}>Behöver jag förbereda något inför flytten?</strong>
-    Ja, packa ordentligt, märk lådorna och planera logistik för flyttdagen för en smidigare process.
-  </li>
-</ul>
-
+    <h2 style={{ marginTop: '40px' }} className={styles.titeln}>Vanliga frågor om städ- och flyttjänster i Göteborg</h2>
+    <ul className={styles.textform}>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Vad ingår i hemstädning?</strong>
+        I hemstädning ingår dammsugning, dammtorkning, rengöring av badrum och kök, samt golvtorkning. Vissa firmor kan erbjuda extra tjänster som fönsterputs eller kylskåpsrengöring mot en tilläggskostnad.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Hur bokar jag flyttstädning?</strong>
+        Flyttstädning kan bokas via telefon, e-post eller bokningsformulär på företagets hemsida. Det rekommenderas att boka minst 1–2 veckor i förväg för att säkerställa tillgänglighet.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Är städtjänster berättigade till RUT-avdrag?</strong>
+        Ja, städtjänster är berättigade till RUT-avdrag. Det innebär att du får 50 % avdrag på arbetskostnaden. Städfirman hanterar vanligtvis avdraget åt dig.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Vad kostar kontorsstädning per månad?</strong>
+        Kontorsstädning kostar vanligtvis mellan 1 500 och 10 000 SEK per månad beroende på kontorets storlek och hur ofta städning behövs.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Kan städfirman ta hand om allergistädning?</strong>
+        Ja, många städfirmor erbjuder allergivänliga alternativ som inkluderar användning av parfymfria och miljövänliga produkter samt grundlig dammsugning med HEPA-filter.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Vad ingår i en flyttstädning?</strong>
+        Flyttstädning inkluderar noggrann rengöring av alla ytor, inklusive spis, ugn, kyl, frys, badrum och golv. Fönsterputsning ingår ofta, men det kan variera mellan firmor.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Måste jag vara hemma vid hemstädning?</strong>
+        Nej, det är inte nödvändigt att vara hemma. Många kunder lämnar nycklar till städfirman efter överenskommelse.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Hur förbereder jag för en flyttstädning?</strong>
+        Se till att bostaden är tömd på möbler och personliga tillhörigheter innan städfirman anländer. Stäng av kyl och frys och låt dörrarna stå öppna.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Vad händer om städningen inte blir godkänd vid flytt?</strong>
+        De flesta städfirmor erbjuder en garanti och åtgärdar eventuella brister utan extra kostnad om det påpekas inom en viss tidsram.
+      </li>
+      <li style={{ fontSize: '0.85rem', lineHeight: '22px' }} className={styles.textform}>
+        <strong className={styles.titeln}>Kan jag boka städning akut?</strong>
+        Ja, vissa firmor erbjuder akutstädning mot en extra avgift. Tillgänglighet beror på företagets schema.
+      </li>
+    </ul>
   </article>
 </div>
+<article style={{height:'50px'}}></article>
     <DividerSection />
     <Tesimonial />
     <div className={styles.blekguidesec} id="jämför-flyttfirmor">

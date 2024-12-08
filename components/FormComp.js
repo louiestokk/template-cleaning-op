@@ -66,22 +66,6 @@ const FormComp = ({title,data}) => {
   const handleSubmit = async(e) =>{
     e.preventDefault()
 handleSendEmail()
-    // try {
-    //   const resp = await fetch('/api/forfragan',{
-    //     method:'POST',
-    //     body:JSON.stringify({
-    //      service:formData?.service?.payload,
-    //      email:formData?.email?.payload,
-    //      description:formData?.description?.payload
-    //     })
-    //   })
-    //   if(resp.ok){
-    //     console.log('success')
-    //   }
-    // } catch (error) {
-    //   // show user response
-    //   console.log(error.message)
-    // } 
   }
 
   return (

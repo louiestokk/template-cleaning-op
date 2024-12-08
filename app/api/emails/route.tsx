@@ -8,8 +8,8 @@ export async function POST(req: Request) {
     try {
         const {emailTo,lead } = await req.json();
         const { data, error } = await resend.emails.send({
-          from: 'Acme <onboarding@resend.dev>',
-          to: ['grokthegoat@gmail.com'],
+          from: 'TantRut Kundtjänst <info@tantrut-alltjanst.com>',
+          to: [emailTo],
           subject: 'Tack för din förfrågan',
           react: <Confirmation/>
         });

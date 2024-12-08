@@ -37,12 +37,12 @@ import {
             Vi har fått din förfrågan och snart kommer du att få kontakt och en offert av oss. Besök vår hemsida om du vill ha mer information.
           </Text>
           <Section style={buttonContainer}>
-            <Button style={button} href="https://tantrut.netlify.app/">
+            <Button style={button} href="https://tantrut-alltjanst.com/">
               Besök vår hemsida
             </Button>
           </Section>
           <Hr style={hr} />
-          <Link href="https://tantrut.netlify.app/" style={reportLink}>
+          <Link href="https://tantrut-alltjanst.com/" style={reportLink}>
             Tant Rut 
           </Link>
         </Container>

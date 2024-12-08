@@ -6,8 +6,8 @@ export async function POST(req: Request) {
     try {
         const {lead } = await req.json();
         const { data, error } = await resend.emails.send({
-          from: 'Acme <onboarding@resend.dev>',
-          to: ['grokthegoat@gmail.com'],
+          from: 'Nytt Lead TantRut <info@tantrut-alltjanst.com>',
+          to: ['info@tantrut-alltjanst.com'],
           subject: 'Ett nytt lead!',
           react: <div>
             <h2>Tjänst: {lead.service}</h2>

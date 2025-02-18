@@ -11,7 +11,7 @@ const FormComp = ({title,data}) => {
   const dispatch = useDispatch()
   const [skickar, setSkickar] = useState(false)
   const [recived, setRecived] = useState(false)
-
+const [formIsValid, setformIsValid] = useState(false)
   const sendEmailToadmin = async() =>{
     try {
       const resp = await fetch('/api/emails/admin-confirmation',{
@@ -70,7 +70,7 @@ handleSendEmail()
 
   return (
     <div style={{width:'100%',marginTop:'1rem',marginBottom:'1rem'}}>
-    <form style={{display:'flex',flexDirection:'column',background:'#F8F8F8',width:'360px',padding:'1rem'}}>
+    <form onSubmit={(e)=> e.preventDefault()} style={{display:'flex',flexDirection:'column',background:'#F8F8F8',width:'360px',padding:'1rem'}}>
     <h2  className={styles.titeln}>{title}</h2>
         <Grid2 container>
             {data?.map((el,i)=>(
@@ -81,8 +81,18 @@ handleSendEmail()
             ))}
         </Grid2>
         <TextField onChange={handleEmailChange} variant='outlined' type='email' placeholder='Din email' style={{background:'white'}}/>
-        <textarea onChange={handleDescriptionChange} rows={3} style={{border:'0.5px solid lightgray',borderRadius:'4px',fontSize:'16px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
-        <Button onClick={handleSubmit} type='submit' variant='contained' style={{background:'#32de84',color:'black',padding:'0.65rem'}}>{skickar?'skickar...':recived?'Tack för din förfrågan':'Be om offert'}</Button>
+        <textarea onChange={handleDescriptionChange} rows={5} style={{border:'0.5px solid lightgray',borderRadius:'4px',fontSize:'16px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
+        <div className={styles.formvalidater}>
+          <Checkbox onChange={()=> setformIsValid(true)}/>
+          <p>Godkänn användarvillkor & integritetspolicy</p>
+        </div>
+        <Button onClick={(e)=>{
+          if(formIsValid){
+            handleSubmit(e)
+          } else{
+            alert('Godkänn användarvillkor och integritetspolicy')
+          }
+        }} type='submit' variant='contained' style={{background:'#32de84',color:'black',padding:'0.65rem'}}>{skickar?'skickar...':recived?'Tack för din förfrågan':'Be om offert'}</Button>
     </form>
     </div>
   )

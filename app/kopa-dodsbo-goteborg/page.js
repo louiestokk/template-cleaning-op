@@ -18,18 +18,16 @@ export const metadata = {
   title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
   description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
   keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','uppköp av dödsbo i Göteborg','köper dödsbo i Göteborg'],
-  metadataBase: new URL('https://tantrut-alltjanst.com'),
+  metadataBase: new URL('https://www.tantrut-alltjanst.com'),
   alternates: {
-    canonical: 'https://tantrut-alltjanst.com/kopa-dodsbo-goteborg',
-    languages: {
-      'sv': '/sv',
-    },
+    canonical: 'https://www.tantrut-alltjanst.com/kopa-dodsbo-goteborg',
+ 
   },
   openGraph: {
     title: 'Köper dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
     images: 'https://images.pexels.com/photos/7464719/pexels-photo-7464719.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-    url: 'https://tantrut-alltjanst.com/kopa-dodsbo-goteborg',
+    url: 'https://www.tantrut-alltjanst.com/kopa-dodsbo-goteborg',
     site_name: 'Tant Rut Alltjänst',
     images: [
       {
@@ -40,7 +38,7 @@ export const metadata = {
       }
     ],
     type: 'website',
-    locale: 'sv_SE',
+   
   },
   twitter: {
     card: 'summary_large_image',

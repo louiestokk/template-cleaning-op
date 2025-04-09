@@ -164,8 +164,8 @@ const ClonFlyttComp = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: `Flyttstäd i ${currentCity}? Trygg & Privärd Flyttstädning`,
-        description:`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa flyttstädningen i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`,
+        title: `Flyttstäd i ${currentCity}? Trygg & Privärd Flyttstädning ${currentCity}`,
+        description:`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? TantRut Alltjänst ser till att du får den bästa flyttstädningen i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`,
         datePublished: '2024-11-15',
         author: {
           "@type": "Person",
@@ -218,7 +218,7 @@ const ClonFlyttComp = () => {
       const accordionThree = [
         {
           title:`Vilken flyttfirma är bäst i ${currentCity}`,
-          text:'När du letar efter en flyttfirma i är det viktigt att välja någon som prioriterar kvalitet, pålitlighet och personlig service. Vi på Flyttströms Alltjänst vågar säga att vi tillhör de bästa i branschen. Med erfarenhet, engagemang och ett kundfokus som går utöver det vanliga, ser vi till att din flytt blir smidig och stressfri.'
+          text:'När du letar efter en flyttfirma i är det viktigt att välja någon som prioriterar kvalitet, pålitlighet och personlig service. Vi på TantRut Alltjänst Alltjänst vågar säga att vi tillhör de bästa i branschen. Med erfarenhet, engagemang och ett kundfokus som går utöver det vanliga, ser vi till att din flytt blir smidig och stressfri.'
         } ,
          {
           title:'Vad är ett rimligt pris för en flyttfirma?',
@@ -284,17 +284,16 @@ const ClonFlyttComp = () => {
   return (
     <div>
              <title>{`Flyttstäd i ${currentCity}? Trygg & Privärd Flyttstäd`}</title>
-    <meta name="description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa flyttstäd i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
+    <meta name="description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? TantRut Alltjänst ser till att du får den bästa flyttstäd i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
     <meta property="og:title" content={`Flyttstäd i ${currentCity}? Trygg & Privärd Flyttstäd`}/>
-    <meta property="og:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa flyttstädning i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
+    <meta property="og:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? TantRut Alltjänst ser till att du får den bästa flyttstädning i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
     <meta property="og:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <meta property="og:url" content="https://www.recyclerapp.com/"/> 
+ 
     <meta property="og:type" content="website"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content={`flyttstäd i ${currentCity}? Trygg & Privärd flyttstäd`}/>
-    <meta name="twitter:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa flyttstädning i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
+    <meta name="twitter:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? TantRut Alltjänst ser till att du får den bästa flyttstädning i ${currentCity}! Prisvärd flyttstäd i ${currentCity}.`}/>
     <meta name="twitter:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <link rel="canonical" href="https://www.recyclerapp.com/"/> 
     <meta name="robots" content="index, follow"/>
     <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
           <JsonLd data={{

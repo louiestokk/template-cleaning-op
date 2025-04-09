@@ -22,18 +22,16 @@ export const metadata = {
       'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg','flyttfirma Göteborg','flytthjälp Göteborg',
       'städfirma göteborg','städfirma','flyttfirma','flyttfiirma göteborg','flyttstäd Göteborg'
     ],
-  metadataBase: new URL('https://tantrut.netlify.app'),
+  metadataBase: new URL('https://www.tantrut-alltjanst.com'),
   alternates: {
-    canonical: 'https://tantrut.netlify.app/',
-    languages: {
-      'sv': '/sv',
-    },
+    canonical: 'https://www.tantrut-alltjanst.com',
+
   },
   openGraph: {
     title: 'Tant Rut Alltjänst – Flytt, Städning och Dödsbotömning med RUT-avdrag',
     images: 'https://images.pexels.com/photos/5025639/pexels-photo-5025639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     description:'Tant Rut Alltjänst erbjuder flytt, städning och tömning av hushåll och dödsbon. Utnyttja ditt RUT-avdrag och få professionell hjälp snabbt och smidigt!',
-    url: 'https://tantrut.netlify.app/',
+    url: 'https://www.tantrut-alltjanst.com',
     site_name: 'Tant Rut Alltjänst',
     images: [
       {
@@ -44,7 +42,7 @@ export const metadata = {
       }
     ],
     type: 'website',
-    locale: 'sv_SE',
+   
   },
   twitter: {
     card: 'summary_large_image',

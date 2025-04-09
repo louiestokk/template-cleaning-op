@@ -26,9 +26,9 @@ export const metadata = {
         'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg','stadfirma','städfirma göteborg',
         'stadföretag','städföretag göteborg'
       ],
-    metadataBase: new URL('https://tantrut-alltjanst.com'),
+    metadataBase: new URL('https://www.tantrut-alltjanst.com'),
     alternates: {
-      canonical: 'https://tantrut-alltjanst.com/stadfirma-goteborg',
+      canonical: 'https://www.tantrut-alltjanst.com/stadfirma-goteborg',
       languages: {
         'sv': '/sv',
       },
@@ -37,7 +37,7 @@ export const metadata = {
       title: 'Städfirma i Göteborg? Trygg & Privärd Städfirma i Göteborg',
       images: 'https://images.pexels.com/photos/4099471/pexels-photo-4099471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med att hitta en bra städfirma i Göteborg? Tant Rut ser till att du får den bästa städningen i Göteborg! Trygg & Prisvärd Städfirma i Göteborg.',
-      url: 'https://tantrut-alltjanst.com/stadfirma-goteborg',
+      url: 'https://www.tantrut-alltjanst.com/stadfirma-goteborg',
       site_name: 'Tant Rut Alltjänst',
       images: [
         {

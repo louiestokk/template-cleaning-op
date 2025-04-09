@@ -22,9 +22,9 @@ export const metadata = {
     'köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo',
     'dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle',
     'recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','nordjouren','dödsbojouren','antikgruppen'],
-  metadataBase: new URL('https://tantrut-alltjanst.com'),
+  metadataBase: new URL('https://www.tantrut-alltjanst.com'),
   alternates: {
-    canonical: 'https://tantrut-alltjanst.com/salja-dodsbo-goteborg',
+    canonical: 'https://www.tantrut-alltjanst.com/salja-dodsbo-goteborg',
     languages: {
       'sv': '/sv',
     },
@@ -33,7 +33,7 @@ export const metadata = {
     title: 'Sälja dödsbo Göteborg? Vi köper ditt dödsbo i Göteborg!',
     images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
     description:'Skall du sälja ett dödsbo i Göteborg? Vi köper upp dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-    url: 'https://tantrut-alltjanst.com/salja-dodsbo-goteborg',
+    url: 'https://www.tantrut-alltjanst.com/salja-dodsbo-goteborg',
     site_name: 'Tant Rut Alltjänst',
     images: [
       {

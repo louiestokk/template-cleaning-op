@@ -18,9 +18,9 @@ export const metadata = {
   title: 'Tömma dödsbo Göteborg? Vi tömmer och städar dödsbo i Göteborg',
   description:'Behöver du tömma ett dödsbo i Göteborg? Vi tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
   keywords: ['sälja dödsbo Göteborg','köper dödsbo Göteborg','dödsbouppköpare Göteborg','värdera dödsbo i Göteborg','köper allt i hemmet i Göteborg','dödsbo i Göteborg','bortforsling dödsbo','värdering dödsbo','dödsbostädning i Göteborg','slutstädning i Göteborg','auktionsfirma','loppisar','köper lösöre','tömma dödsbo', 'röja dödsbo', 'tömning av dödsbo i Göteborg','tömmer dödsbo','dödsbotömning','bouppteckning','städfirma','flyttfirma','rut avdrag','recycla','recycle','recycling','bortforsling','bortforsling Göteborg','sälja dödsbo','tömma dödsbo','tömmer dödsbo i göteborg','röjer dödsbo i Göteborg','dödsbo göteborg','göteborg','dödsbo','tömma dödsbo Göteborrg'],
-  metadataBase: new URL('https://tantrut-alltjanst.com'),
+  metadataBase: new URL('https://www.tantrut-alltjanst.com'),
   alternates: {
-    canonical: 'https://tantrut-alltjanst.com/tomma-dodsbo-goteborg',
+    canonical: 'https://www.tantrut-alltjanst.com/tomma-dodsbo-goteborg',
     languages: {
       'sv': '/sv',
     },
@@ -29,7 +29,7 @@ export const metadata = {
     title: 'Tömma dödsbo Göteborg? Vi tömmer och städar dödsbo i Göteborg',
     images: 'https://img.freepik.com/premium-vector/funeral-ceremony-vector-illustration-sad-people-black-clothes-standing-by-grave-with-wreaths-around-coffin-flat-cartoon-background_2175-25085.jpg?w=1800',
     description:'Behöver du tömma ett dödsbo i Göteborg? Vi tömmer och städar dödsbon och bohag i Göteborg. Köpa upp, tömma och städa dödsbo i Göteborg',
-    url: 'https://tantrut-alltjanst.com/tomma-dodsbo-goteborg',
+    url: 'https://www.tantrut-alltjanst.com/tomma-dodsbo-goteborg',
     site_name: 'Tant Rut Alltjänst',
     images: [
       {

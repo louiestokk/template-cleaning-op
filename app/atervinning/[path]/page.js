@@ -164,8 +164,8 @@ const ClonFlyttComp = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: `Bortforsling i ${currentCity}? Trygg & Privärd Bortforsling`,
-        description:`Behöver du hjälp med köra till tippen i ${currentCity}? Flyttströms hjälper dig med bortforsling i ${currentCity}! Prisvärd bortforsling i ${currentCity}.`,
+        title: `Få hjälp med återvinning i ${currentCity}? Trygg & Privärd Återvinning i ${currentCity}`,
+        description:`Behöver du hjälp med köra till tippen i ${currentCity}? Tant Rut Alltjänst hjälper dig med bortforsling i ${currentCity}! Prisvärd hjälp med återvinning i ${currentCity}.`,
         datePublished: '2024-11-15',
         author: {
           "@type": "Person",
@@ -218,7 +218,7 @@ const ClonFlyttComp = () => {
       const accordionThree = [
         {
           title:`Vilken flyttfirma är bäst i ${currentCity}`,
-          text:'När du letar efter en flyttfirma i är det viktigt att välja någon som prioriterar kvalitet, pålitlighet och personlig service. Vi på Flyttströms Alltjänst vågar säga att vi tillhör de bästa i branschen. Med erfarenhet, engagemang och ett kundfokus som går utöver det vanliga, ser vi till att din flytt blir smidig och stressfri.'
+          text:'När du letar efter en flyttfirma i är det viktigt att välja någon som prioriterar kvalitet, pålitlighet och personlig service. Vi på Tant Rut Alltjänst Alltjänst vågar säga att vi tillhör de bästa i branschen. Med erfarenhet, engagemang och ett kundfokus som går utöver det vanliga, ser vi till att din flytt blir smidig och stressfri.'
         } ,
          {
           title:'Vad är ett rimligt pris för en flyttfirma?',
@@ -283,18 +283,16 @@ const ClonFlyttComp = () => {
     
   return (
     <div>
-             <title>{`Bortforsling i ${currentCity}? Trygg & Privärd Bortforsling`}</title>
-    <meta name="description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Flyttströms hjälper dig med bortforsling i ${currentCity}! Prisvärd bortforsling i ${currentCity}.`}/>
-    <meta property="og:title" content={`Bortforsling i ${currentCity}? Trygg & Privärd Bortforsling`}/>
-    <meta property="og:description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Flyttströms hjälper dig med bortforsling i ${currentCity}! Prisvärd bortforsling i ${currentCity}.`}/>
+             <title>{`Få hjälp med återvinning i ${currentCity}? Trygg & Privärd Återvinning i ${currentCity}`}</title>
+    <meta name="description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Tant Rut Alltjänst hjälper dig med återvinning i ${currentCity}! Prisvärd hjälp med återvinning i ${currentCity}.`}/>
+    <meta property="og:title" content={`Få hjälp med återvinning i ${currentCity}? Trygg & Privärd Återvinning i ${currentCity}`}/>
+    <meta property="og:description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Tant Rut Alltjänst hjälper dig med återvinning i ${currentCity}! Prisvärd hjälp med återvinning i ${currentCity}.`}/>
     <meta property="og:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <meta property="og:url" content="https://www.recyclerapp.com/"/> 
     <meta property="og:type" content="website"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content={`Bortforsling i ${currentCity}? Trygg & Privärd Bortforsling`}/>
-    <meta name="twitter:description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Flyttströms hjälper dig med bortforsling i ${currentCity}! Prisvärd bortforsling i ${currentCity}.`}/>
+    <meta name="twitter:title" content={`Få hjälp med återvinning i ${currentCity}? Trygg & Privärd Återvinning i ${currentCity}`}/>
+    <meta name="twitter:description" content={`Behöver du hjälp med köra till tippen i ${currentCity}? Tant Rut Alltjänst hjälper dig med återvinning i ${currentCity}! Prisvärd hjälp med återvinning i ${currentCity}.`}/>
     <meta name="twitter:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <link rel="canonical" href="https://www.recyclerapp.com/"/> 
     <meta name="robots" content="index, follow"/>
     <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
           <JsonLd data={{
@@ -312,7 +310,7 @@ const ClonFlyttComp = () => {
 <HeaderComp sidor={sidorflytt}/>
     </header>
     <main className={styles.main}>
-    <HeroComp title={`Bortforsling i ${currentCity}`} text={`Vi flyttar, städar och tömmer hushåll och dödsbon i ${currentCity}. Nyttja din rut när du använder våra tjänster!`}/>
+    <HeroComp title={`Återvinning i ${currentCity}`} text={`Vi hjälper dig att återvinna, sortera och köra till tippen i ${currentCity}. Nyttja din rut när du använder våra tjänster!`}/>
     <div style={{height:'30px'}}></div>
     <HogerSection />
     <article style={{height:'30px'}}></article>
@@ -349,7 +347,7 @@ const ClonFlyttComp = () => {
       <ul className={styles.textform}>
         <li>Boka flytten i god tid för att få bästa pris.</li>
         <li>Packa och demontera möbler själv.</li>
-        <li><a style={{color:'inherit',fontWeight:'bold'}} href='https://www.recyclerapp.com/flyttfirma-goteborg'>Jämför priser</a> från flera <a style={{color:'inherit',fontWeight:'bold'}} href='https://www.recyclerapp.com/flyttfirma-goteborg'>flyttfirmor</a>.</li>
+        <li><a style={{color:'inherit',fontWeight:'bold'}} href='https://www.tantrut-alltjanst.com/flyttfirma-goteborg'>Jämför priser</a> från flera <a style={{color:'inherit',fontWeight:'bold'}} href='https://www.tantrut-alltjanst.com/flyttfirma-goteborg'>flyttfirmor</a>.</li>
         <li>Välj en flyttfirma som erbjuder RUT-avdrag för flyttjänster.</li>
       </ul>
     </div>

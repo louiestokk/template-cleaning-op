@@ -164,7 +164,7 @@ const ClonFlyttComp = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: `Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstädning`,
+        title: `Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd  ${currentCity}ning ${currentCity}`,
         description:`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa Kontorsstäd i ${currentCity}! Prisvärd Kontorsstäd i ${currentCity}.`,
         datePublished: '2024-11-15',
         author: {
@@ -283,18 +283,16 @@ const ClonFlyttComp = () => {
     
   return (
     <div>
-             <title>{`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd`}</title>
+             <title>{`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd  ${currentCity}`}</title>
     <meta name="description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa Kontorsstäd i ${currentCity}! Prisvärd Kontorsstäd i ${currentCity}.`}/>
-    <meta property="og:title" content={`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd`}/>
+    <meta property="og:title" content={`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd  ${currentCity}`}/>
     <meta property="og:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa Kontorsstädningen i ${currentCity}! Prisvärd Kontorsstäd i ${currentCity}.`}/>
     <meta property="og:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <meta property="og:url" content="https://www.recyclerapp.com/"/> 
     <meta property="og:type" content="website"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content={`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd`}/>
+    <meta name="twitter:title" content={`Kontorsstäd i ${currentCity}? Trygg & Privärd Kontorsstäd  ${currentCity}`}/>
     <meta name="twitter:description" content={`Behöver du hjälp med att hitta en bra städfirma i ${currentCity}? Flyttströms ser till att du får den bästa kontorstädning i ${currentCity}! Prisvärd Kontorsstäd i ${currentCity}.`}/>
     <meta name="twitter:image" content="https://images.pexels.com/photos/7464698/pexels-photo-7464698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"/>
-    <link rel="canonical" href="https://www.recyclerapp.com/"/> 
     <meta name="robots" content="index, follow"/>
     <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
           <JsonLd data={{

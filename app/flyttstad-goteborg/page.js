@@ -25,18 +25,16 @@ export const metadata = {
         'privatstäd', 'industristäd', 'byggstäd', 'flyttstäd checklista', 'garanterad flyttstädning',
         'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg'
       ],
-    metadataBase: new URL('https://tantrut-alltjanst.com'),
+    metadataBase: new URL('https://www.tantrut-alltjanst.com'),
     alternates: {
-      canonical: 'https://tantrut-alltjanst.com/flyttstad-goteborg',
-      languages: {
-        'sv': '/sv',
-      },
+      canonical: 'https://www.tantrut-alltjanst.com/flyttstad-goteborg',
+  
     },
     openGraph: {
       title: 'Flyttstäd i Göteborg? Vi hjälper dig med flyttstädning i Göteborg!',
       images: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med flyttstäd i Göteborg? Tant Rut ser till att du får den bästa flyttstädningen i Göteborg! Hos oss ingår alltid städgaranti.',
-      url: 'https://tantrut-alltjanst.com/flyttstad-goteborg',
+      url: 'https://www.tantrut-alltjanst.com/flyttstad-goteborg',
       site_name: 'Tant Rut Alltjänst',
       images: [
         {
@@ -47,7 +45,7 @@ export const metadata = {
         }
       ],
       type: 'website',
-      locale: 'sv_SE',
+   
     },
     twitter: {
       card: 'summary_large_image',

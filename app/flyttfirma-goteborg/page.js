@@ -26,18 +26,16 @@ export const metadata = {
         'billig flyttstäd Göteborg','bra flyttstäd Göteborg','Göteborg','flyttfirma Göteborg','flytthjälp Göteborg',
         'cityflytt','Guldhedens Flytt','vad kostar et flyttfirma i Göteborg','Flyttkillarna','reco.se'
       ],
-    metadataBase: new URL('https://tantrut-alltjanst.com'),
+    metadataBase: new URL('https://www.tantrut-alltjanst.com'),
     alternates: {
-      canonical: 'https://tantrut-alltjanst.com/flyttfirma-goteborg',
-      languages: {
-        'sv': '/sv',
-      },
+      canonical: 'https://www.tantrut-alltjanst.com/flyttfirma-goteborg',
+    
     },
     openGraph: {
       title: 'Flyttfirma i Göteborg? Trygg & Privärd Flyttfirma i Göteborg',
       images: 'https://images.pexels.com/photos/5025639/pexels-photo-5025639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med att hitta en bra flyttfirma i Göteborg? Tant Rut ser till att du får den bästa flytten i Göteborg! Trygg & Prisvärd flyttfirma i Göteborg.',
-      url: 'https://tantrut-alltjanst.com/flyttfirma-goteborg',
+      url: 'https://www.tantrut-alltjanst.com/flyttfirma-goteborg',
       site_name: 'Tant Rut Alltjänst',
       images: [
         {
@@ -48,7 +46,7 @@ export const metadata = {
         }
       ],
       type: 'website',
-      locale: 'sv_SE',
+ 
     },
     twitter: {
       card: 'summary_large_image',

@@ -19,21 +19,18 @@ import { sidorbortforsling } from '../../content/sidorna'
 import { Box } from '@mui/material'
 
 export const metadata = {
-    title: 'Bortforsling av möbler och grovsopor? Vi forslar bort och kör till tippen!',
+    title: 'Bortforsling av möbler och grovsopor i Göteborg. Vi forslar bort och kör till tippen!',
     description:'Behöver du hjälp med bortforsling av möbler och grovsopor. Vi är en pålitliga och seriös firma som hjälper dig med bortforsling av möbler. Snabb och smidig tjänst.',
     keywords: ['bortforsling möbler', 'hämta möbler', 'slänga möbler','grovsopor','återvinning','köra till tippen','åvc','återvinningscentral','göteborg','städfirma göteborg','flyttfirma göteborg'],
-    metadataBase: new URL('https://tantrut-alltjanst.com'),
+    metadataBase: new URL('https://www.tantrut-alltjanst.com'),
     alternates: {
-      canonical: 'https://tantrut-alltjanst.com/bortforsling-mobler-goteborg',
-      languages: {
-        'sv': '/sv',
-      },
+      canonical: 'https://www.tantrut-alltjanst.com/bortforsling-mobler-goteborg',
     },
     openGraph: {
-      title: 'Bortforsling av möbler och grovsopor? Vi forslar bort och kör till tippen!',
+      title: 'Bortforsling av möbler och grovsopor i Göteborg. Vi forslar bort och kör till tippen!',
       images: 'https://images.pexels.com/photos/5824520/pexels-photo-5824520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       description:'Behöver du hjälp med bortforsling av möbler och grovsopor. Vi är en pålitliga och seriös firma som hjälper dig med bortforsling av möbler. Snabb och smidig tjänst.',
-      url: 'https://tantrut-alltjanst.com/bortforsling-mobler-goteborg',
+      url: 'https://www.tantrut-alltjanst.com/bortforsling-mobler-goteborg',
       site_name: 'Tant Rut Alltjänst',
       images: [
         {
@@ -50,7 +47,7 @@ export const metadata = {
       card: 'summary_large_image',
       site: '@tantrut', 
       title: 'Bortforsling av möbler och grovsopor',
-      description: 'Bortforsling av möbler och grovsopor? Vi forslar bort och kör till tippen!',
+      description: 'Bortforsling av möbler och grovsopor i Göteborg. Vi forslar bort och kör till tippen!',
       image: 'https://images.pexels.com/photos/5824520/pexels-photo-5824520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
     robots: {
@@ -62,7 +59,7 @@ const Bortforsling = () => {
     const article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        title: 'Bortforsling av möbler och grovsopor? Vi forslar bort och kör till tippen!',
+        title: 'Bortforsling av möbler och grovsopor i Göteborg. Vi forslar bort och kör till tippen!',
         description:'Behöver du hjälp med bortforsling av möbler och grovsopor. Vi är en pålitliga och seriös firma som hjälper dig med bortforsling av möbler. Snabb och smidig tjänst.',
         datePublished: '2024-11-15',
         author: {

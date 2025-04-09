@@ -1,6 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
 
 
-Sitemap: https://tantrut-alltjanst.com/sitemap.xml
+
+Sitemap: https://www.tantrut-alltjanst.com/sitemap.xml

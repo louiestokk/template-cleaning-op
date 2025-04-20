@@ -5,10 +5,6 @@ const nextConfig = {
         serverComponentsExternalPackages: ["mongoose"],
         cpus:6
       },
-      i18n: {
-      defaultLocale: 'sv',
-      locales: ['en', 'sv'],
-    },
       images: {
         domains: ['lh3.googleusercontent.com','https://i.ibb.co','https://imgbb.com/','i.ibb.co','https://images.pexels.com','https://randomuser.me/','https://www.stadsmissionen.org','https://img.freepik.com'],
       },

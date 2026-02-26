@@ -5,51 +5,40 @@ import { Button,FormControlLabel,Checkbox,Grid2,Box,TextField } from '@mui/mater
 import styles from '../app/page.module.css'
 import { useDispatch,useSelector } from 'react-redux'
 import {dispatchService,dispatchEmail,dispatchDescription} from '../redux/features/formSlice'
-
+import { useRouter } from 'next/navigation'
 const FormComp = ({title,data}) => {
   const formData = useSelector((state)=> state.form)
   const dispatch = useDispatch()
+  const router = useRouter()
   const [skickar, setSkickar] = useState(false)
   const [recived, setRecived] = useState(false)
 const [formIsValid, setformIsValid] = useState(false)
-  const sendEmailToadmin = async() =>{
-    try {
-      const resp = await fetch('/api/emails/admin-confirmation',{
-        method:'POST',
-        body:JSON.stringify({
-          lead:{
-            service:formData?.service?.payload,
-            email:formData?.email?.payload,
-            description:formData?.description?.payload
-          }
-        })
-      })
-      if(resp.ok){
-        console.log('email skickad')
-      }
-    } catch (error) {
-      console.log(error)
+
+const handleSendEmail = async () => {
+  setSkickar(true);
+
+  try {
+    const resp = await fetch('/api/emails', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        emailTo: formData?.email?.payload,
+        description: formData?.description?.payload,
+        service: formData?.service?.payload,
+        honeypot: "" // bots fyller detta automatiskt
+      }),
+    });
+
+    if (resp.ok) {
+      setRecived(true);
+      router.push('/bekraftelse')
     }
+  } catch (e) {
+    console.error(e);
+  } finally {
+    setSkickar(false);
   }
-  const handleSendEmail = async() =>{
-    setSkickar(true)
-    try {
-      const resp = await fetch('/api/emails',{
-        method:'POST',
-        body:JSON.stringify({
-          emailTo:formData?.email?.payload,
-        })
-      })
-      if(resp.ok){
-        console.log('email skickad')
-        sendEmailToadmin()
-        setSkickar(false)
-        setRecived(true)
-      }
-    } catch (error) {
-      console.log(error)
-    }
-  }
+};
 
   const handleServiceChange = (e,title) =>{
  dispatch(dispatchService(title))
@@ -82,6 +71,13 @@ handleSendEmail()
         </Grid2>
         <TextField onChange={handleEmailChange} variant='outlined' type='email' placeholder='Din email' style={{background:'white'}}/>
         <textarea onChange={handleDescriptionChange} rows={5} style={{border:'0.5px solid lightgray',borderRadius:'4px',fontSize:'16px'}} placeholder='Beskriv vad du behöver hjälp med'></textarea>
+        <input
+  type="text"
+  name="company"
+  style={{ display: 'none' }}
+  tabIndex={-1}
+  autoComplete="off"
+/>
         <div className={styles.formvalidater}>
           <Checkbox onChange={()=> setformIsValid(true)}/>
           <p>Godkänn användarvillkor & integritetspolicy</p>

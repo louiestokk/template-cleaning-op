@@ -30,7 +30,6 @@ import {
             Tant Rut Alltjänst
           </Text>
         <Section>
-          <Img    style={headerImage} height={240} width={200} src={'https://tantrut.netlify.app/hero.jpg'} />
         </Section>
           <Heading style={heading}>Tack för din förfrågan.</Heading>
           <Text style={paragraph}>
